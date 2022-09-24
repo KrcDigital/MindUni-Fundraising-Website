@@ -1,0 +1,81 @@
+
+
+ #Katman4 
+{ 
+	 left: 627px; 
+	 top: 154px; 
+	 position: absolute; 
+	 width: 147px;
+	 height: 183px;
+	 z-index:1;
+} 
+
+ #Katman6 
+{ 
+	 left: 275px; 
+	 top: 424px; 
+	 position: absolute; 
+	 width: 157px;
+	 height: 193px;
+	 z-index:2;
+} 
+
+ #Katman8 
+{ 
+	 left: 1004px; 
+	 top: 424px; 
+	 position: absolute; 
+	 width: 158px;
+	 height: 195px;
+	 z-index:3;
+} 
+
+ #Katman7 
+{ 
+	 left: 627px; 
+	 top: 424px; 
+	 position: absolute; 
+	 width: 152px;
+	 height: 187px;
+	 z-index:4;
+} 
+
+ #Katman5 
+{ 
+	 left: 1004px; 
+	 top: 156px; 
+	 position: absolute; 
+	 width: 148px;
+	 height: 182px;
+	 z-index:5;
+} 
+
+ #Katman3 
+{ 
+	 left: 275px; 
+	 top: 152px; 
+	 position: absolute; 
+	 width: 151px;
+	 height: 186px;
+	 z-index:6;
+} 
+
+ #Katman2 
+{ 
+	 left: 429px; 
+	 top: 60px; 
+	 position: absolute; 
+	 width: 608px;
+	 height: 51px;
+	 z-index:7;
+} 
+
+#geri
+{ 
+	 left: 679px; 
+	 top: -20px; 
+	 position: absolute; 
+	 width: 608px;
+	 height: 51px;
+	 z-index:7;
+} 

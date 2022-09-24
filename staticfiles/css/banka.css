@@ -1,0 +1,63 @@
+@media only screen and (min-width: 1700px) {
+ #Katman2 
+{ 
+	 left: 784px; 
+	 top: 550px; 
+	 position: absolute; 
+	 width: 69px;
+	 height: 68px;
+	 z-index:4;
+} 
+
+ #Katman4 
+{ 
+	 left: 560px; 
+	 top: 960px; 
+	 position: absolute; 
+	 width: 107px;
+	 height: 107px;
+	 z-index:2;
+} 
+
+ #YuvarlakKeliDikdrtge 
+{ 
+	 left: 00px; 
+	 top: 550px; 
+	 position: absolute; 
+	 width: 853px;
+	 height: 471px;
+	 z-index:3;
+} 
+}
+@media only screen and (min-width: 999px) {
+	#Katman2 
+	{ 
+		 left: 784px; 
+		 top: 550px; 
+		 position: absolute; 
+		 width: 69px;
+		 height: 68px;
+		 z-index:4;
+	} 
+	
+	 #Katman4 
+	{ 
+		 left: 560px; 
+		 top: 960px; 
+		 position: absolute; 
+		 width: 107px;
+		 height: 107px;
+		 z-index:2;
+	} 
+	
+	 #YuvarlakKeliDikdrtge 
+	{ 
+		 left: 00px; 
+		 top: 550px; 
+		 position: absolute; 
+		 width: 853px;
+		 height: 471px;
+		 z-index:3;
+	} 
+
+}

@@ -1,0 +1,3847 @@
+@media (min-width: 1700px) and (max-width: 2100px) {
+
+#fonlama 
+{ 
+	 left: 150px; 
+	 top: 50px; 
+	 position: relative; 
+	 width: 650px;
+	 height: 450px;
+	 
+} 
+
+#yer
+{  
+	 position: static; 
+	 
+	 
+} 
+
+#fotomobil 
+	{ 
+		display: none;
+	}
+#hedef
+{ 
+	 left: 383px; 
+	 top: -185px; 
+	 position: relative; 
+	 width: 255px;
+	 height: 25px;
+	 z-index:10;
+} 
+
+#değer
+{ 
+	 left: 485px; 
+	 top: 593px; 
+	 position: absolute; 
+	 width: 195px;
+	 height: 25px;
+	 z-index:11;
+} 
+
+
+
+
+
+#filtre
+{ 
+	 left: 750px; 
+	 top: 370px; 
+	 position: absolute; 
+	 width: 550px;
+	 height: 250px;
+	 z-index:11;
+} 
+
+
+
+
+.aw-zoom
+{
+    position: relative;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+	-ms-transition: all .3s ease-in;
+}
+
+.aw-zoom:hover
+{
+    z-index:2;
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);  
+    -moz-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+#hepsi
+{ 
+	 left: 859px; 
+	 top: 205px; 
+	 position: relative; 
+	 width: 100px;
+	 height: 55px;
+	 z-index: 25;
+} 
+
+#tekno
+{ 
+	 left: 955px; 
+	 top: 530px; 
+	 position: absolute; 
+	 width: 135px;
+	 height: 85px;
+	 z-index: 25;
+} 
+
+
+#filtremobil
+{
+	display: none;
+}
+
+#teknomobil
+{
+	display: none;
+}
+#sosyalmobil
+{
+	display: none;
+}
+#hepsimobil
+{
+	display: none;
+}
+#girisim
+{ 
+	 left: 1095px; 
+	 top: 525px; 
+	 position: absolute; 
+	 width: 115px;
+	 height: 65px;
+	 z-index: 25;
+} 
+
+
+#detailmobil{
+	display: none;
+}
+#FonBalmobil{
+	display: none;
+}
+#Likemobil{
+	display: none;
+}
+#dislikemobil{
+	display: none;
+}
+#hedefmobil{
+	display: none;
+}
+#değermobil{
+	display: none;
+}
+
+
+#sosyal
+{ 
+	 left: 1200px; 
+	 top: 515px; 
+	 position: absolute; 
+	 width: 90px;
+	 height: 60px;
+	 z-index: 25;
+} 
+
+#fonlama2  
+{ 
+	 left: 1000px; 
+	 top: -390px; 
+	 position: relative; 
+	 width: 650px;
+	 height: 450px;
+	 
+} 
+
+
+
+
+ #kalıp 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 
+	 z-index:1;
+} 
+
+ #FonBal 
+{ 
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+	 left: 364px; 
+	 top: 29px; 
+	 position: absolute; 
+	 width: 366px;
+	 height: 69px;
+	 z-index:2;
+	 width:300px; 
+     word-wrap:break-word;
+	 
+} 
+
+#detail
+{ 
+  	 font-size: 20px;
+ 	 color: rgb(44, 44, 44);
+	 left: 275px; 
+	 top: 400px; 
+	 position: absolute; 
+	 width:300px; 
+     word-wrap:break-word;
+	 z-index:3;
+} 
+
+
+
+ #Like 
+{ 
+  	 font-size: 50px;
+ 	 color: rgb(0, 0, 0);
+	 left: 210px; 
+	 top: 480px; 
+	 position: absolute; 
+	 
+	 z-index:3;
+} 
+
+ #Dislike 
+{ 
+	 font-size: 50px;
+	 
+	 color: rgb(0, 0, 0);
+	 left: 780px; 
+	 top: 480px; 
+	 position: absolute; 
+	 
+	 z-index:4;
+} 
+
+ #FonToplananProjeHakk 
+{ 
+	 left: 409px; 
+	 top: 765px; 
+	 position: absolute; 
+	 width: 352px;
+	 height: 15px;
+	 z-index:5;
+} 
+
+
+#incelebuton
+{ 
+ 	border: none;
+  	padding: 8px 14px;
+  	text-align: center;
+ 	text-decoration: none;
+ 	display: inline-block;
+ 	font-size: 12px;
+	left: 150px; 
+	top: 350px; 
+	position: absolute; 
+	width: 75px;
+	height: 60px;
+	z-index:6;
+} 
+
+ #foto 
+{ 
+	 left: 350px; 
+	 top: 100px; 
+	 position: absolute; 
+	 width: 369px;
+	 height: 369px;
+	 z-index:6;
+} 
+
+
+
+  
+  .filterDiv {
+	display: none; /* Hidden by default */
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show1 {
+	display: block;
+  }
+  
+  /* Style the buttons */
+  .btn1 {
+	border: none;
+	outline: none;
+	padding: 12px 16px;
+	background-color: #f1f1f1;
+	cursor: pointer;
+  }
+  
+  /* Add a light grey background on mouse-over */
+  .btn:hover {
+	background-color: #ddd;
+  }
+  
+  /* Add a dark background to the active button */
+  .btn.active1 {
+	background-color: #666;
+	color: white;
+  }
+  .s003 {
+	height: 150px;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: center;
+		justify-content: center;
+	-ms-flex-align: center;
+		align-items: center;
+	font-family: 'Poppins', sans-serif;
+	background-color: #f6ff00;
+	background-size: cover;
+	background-position: center center;
+	padding: 15px;
+  }
+  
+  .s003 form {
+	width: 100%;
+	max-width: 790px;
+	margin-bottom: 0;
+  }
+  
+  .s003 form .inner-form {
+	background: #fff;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	-ms-flex-pack: justify;
+		justify-content: space-between;
+	-ms-flex-align: center;
+		align-items: center;
+	box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+	border-radius: 3px;
+  }
+  
+  .s003 form .inner-form .input-field {
+	height: 68px;
+  }
+  
+
+  #girisimmobil
+  { 
+	   display: none;
+  } 
+
+  .s003 form .inner-form .input-field input {
+	height: 100%;
+	background: transparent;
+	border: 0;
+	display: block;
+	width: 100%;
+	padding: 10px 32px;
+	font-size: 16px;
+	color: #555;
+  }
+  
+  .s003 form .inner-form .input-field input.placeholder {
+	color: #888;
+	font-size: 16px;
+  }
+  
+  .s003 form .inner-form .input-field input:-moz-placeholder {
+	color: #888;
+	font-size: 16px;
+  }
+  
+  .s003 form .inner-form .input-field input::-webkit-input-placeholder {
+	color: #888;
+	font-size: 16px;
+  }
+  
+  .s003 form .inner-form .input-field input:hover, .s003 form .inner-form .input-field input:focus {
+	box-shadow: none;
+	outline: 0;
+	border-color: #fff;
+  }
+  
+  .s003 form .inner-form .input-field.first-wrap {
+	width: 200px;
+	border-right: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .s003 form .inner-form .input-field.first-wrap .choices__inner {
+	background: transparent;
+	border-radius: 0;
+	border: 0;
+	height: 100%;
+	color: #fff;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+		align-items: center;
+	padding: 10px 30px;
+  }
+  
+  .s003 form .inner-form .input-field.first-wrap .choices__inner .choices__list.choices__list--single {
+	display: -ms-flexbox;
+	display: flex;
+	padding: 0;
+	-ms-flex-align: center;
+		align-items: center;
+	height: 100%;
+  }
+  
+  .s003 form .inner-form .input-field.first-wrap .choices__inner .choices__item.choices__item--selectable.choices__placeholder {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+		align-items: center;
+	height: 100%;
+	opacity: 1;
+	color: #888;
+  }
+  
+  .s003 form .inner-form .input-field.first-wrap .choices__inner .choices__list--single .choices__item {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+		align-items: center;
+	height: 100%;
+	color: #555;
+  }
+  
+  .s003 form .inner-form .input-field.first-wrap .choices[data-type*="select-one"]:after {
+	right: 30px;
+	border-color: #e5e5e5 transparent transparent transparent;
+  }
+  
+  .s003 form .inner-form .input-field.first-wrap .choices__list.choices__list--dropdown {
+	border: 0;
+	background: #fff;
+	padding: 20px 30px;
+	margin-top: 2px;
+	border-radius: 4px;
+	box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  }
+  
+  .s003 form .inner-form .input-field.first-wrap .choices__list.choices__list--dropdown .choices__item--selectable {
+	padding-right: 0;
+  }
+  
+  .s003 form .inner-form .input-field.first-wrap .choices__list--dropdown .choices__item--selectable.is-highlighted {
+	background: #fff;
+	color: #63c76a;
+  }
+  
+  .s003 form .inner-form .input-field.first-wrap .choices__list--dropdown .choices__item {
+	color: #555;
+	min-height: 24px;
+  }
+  
+  .s003 form .inner-form .input-field.second-wrap {
+	-ms-flex-positive: 1;
+		flex-grow: 1;
+  }
+  
+  .s003 form .inner-form .input-field.third-wrap {
+	width: 74px;
+  }
+  
+  .s003 form .inner-form .input-field.third-wrap .btn-search {
+	height: 100%;
+	width: 100%;
+	white-space: nowrap;
+	color: #fff;
+	border: 0;
+	cursor: pointer;
+	background: #63c76a;
+	transition: all .2s ease-out, color .2s ease-out;
+  }
+  
+  .s003 form .inner-form .input-field.third-wrap .btn-search svg {
+	width: 16px;
+  }
+  
+  .s003 form .inner-form .input-field.third-wrap .btn-search:hover {
+	background: #50c058;
+  }
+  
+  .s003 form .inner-form .input-field.third-wrap .btn-search:focus {
+	outline: 0;
+	box-shadow: none;
+  }
+  
+}
+
+
+@media (min-width: 1451px) and (max-width: 1699px) {
+	#fonlama 
+{ 
+	 left: 150px; 
+	 top: 50px; 
+	 position: relative; 
+	 width: 650px;
+	 height: 450px;
+	 
+} 
+
+#detailmobil{
+	display: none;
+}
+#FonBalmobil{
+	display: none;
+}
+#Likemobil{
+	display: none;
+}
+#dislikemobil{
+	display: none;
+}
+#hedefmobil{
+	display: none;
+}
+#değermobil{
+	display: none;
+}
+
+#fonname 
+{
+    
+    left: 350px; 
+      top: 00px;
+  }
+
+
+
+#yer
+{  
+	 position: static; 
+	 
+	 
+} 
+
+
+#hedef
+{ 
+	 left: 260px; 
+	 top: -140px; 
+	 position: relative; 
+	 width: 185px;
+	 height: 25px;
+	 z-index:10;
+} 
+
+#değer
+{ 
+	 left: 335px; 
+	 top: 415px; 
+	 position: absolute; 
+	 width: 195px;
+	 height: 25px;
+	 z-index:11;
+} 
+
+
+
+
+
+#filtre
+{ 
+	 left: 450px; 
+	 top: 370px; 
+	 position: absolute; 
+	 width: 550px;
+	 height: 250px;
+	 z-index:11;
+} 
+
+
+#filtremobil
+{
+	display: none;
+}
+
+#teknomobil
+{
+	display: none;
+}
+#sosyalmobil
+{
+	display: none;
+}
+#hepsimobil
+{
+	display: none;
+}
+
+.aw-zoom
+{
+    position: relative;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+	-ms-transition: all .3s ease-in;
+}
+
+.aw-zoom:hover
+{
+    z-index:2;
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);  
+    -moz-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+#hepsi
+{ 
+	 left: 559px; 
+	 top: 205px; 
+	 position: relative; 
+	 width: 100px;
+	 height: 55px;
+	 z-index: 25;
+} 
+
+#tekno
+{ 
+	 left: 658px; 
+	 top: 148px; 
+	 position: relative; 
+	 width: 135px;
+	 height: 85px;
+	 z-index: 25;
+} 
+
+#girisim
+{ 
+	 left: 792px; 
+	 top: 57px; 
+	 position: relative; 
+	 width: 115px;
+	 height: 65px;
+	 z-index: 25;
+} 
+
+
+#sosyal
+{ 
+	 left: 900px; 
+	 top: -15px; 
+	 position: relative; 
+	 width: 90px;
+	 height: 60px;
+	 z-index: 25;
+} 
+
+#fonlama2  
+{ 
+	 left: 1000px; 
+	 top: -390px; 
+	 position: relative; 
+	 width: 650px;
+	 height: 450px;
+	 
+} 
+
+
+#girisimmobil
+		{ 
+			 display: none;
+		} 
+
+ #kalıp 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 
+	 z-index:1;
+} 
+
+ #FonBal 
+{ 
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+	 left: 270px; 
+	 top: 20px; 
+	 position: absolute; 
+	 width: 366px;
+	 height: 69px;
+	 z-index:2;
+	 width:275px; 
+     word-wrap:break-word;
+	 
+} 
+
+#detail
+{ 
+  	 font-size: 15px;
+ 	 color: rgb(44, 44, 44);
+	 left: 240px; 
+	 top: 290px; 
+	 position: absolute; 
+	 width:300px; 
+     word-wrap:break-word;
+	 z-index:3;
+} 
+
+
+
+ #Like 
+{ 
+  	 font-size: 50px;
+ 	 color: rgb(150, 40, 40);
+	 left: 150px; 
+	 top: 330px; 
+	 position: absolute; 
+	 
+	 z-index:3;
+} 
+
+ #Dislike 
+{ 
+	 font-size: 50px;
+	 
+	 color: rgb(150, 40, 40);
+	 left: 540px; 
+	 top: 330px; 
+	 position: absolute; 
+	 
+	 z-index:4;
+} 
+
+ #FonToplananProjeHakk 
+{ 
+	 left: 309px; 
+	 top: 365px; 
+	 position: absolute; 
+	 width: 352px;
+	 height: 15px;
+	 z-index:5;
+} 
+
+
+#incelebuton
+{ 
+ 	border: none;
+  	padding: 8px 14px;
+  	text-align: center;
+ 	text-decoration: none;
+ 	display: inline-block;
+ 	font-size: 12px;
+	left: 150px; 
+	top: 350px; 
+	position: absolute; 
+	width: 75px;
+	height: 60px;
+	z-index:6;
+} 
+
+ #foto 
+{ 
+	 left: 275px; 
+	 top: 75px; 
+	 position: absolute; 
+	 width: 150px;
+	 height: 150px;
+	 z-index:6;
+} 
+
+
+
+  
+  .filterDiv {
+	display: none; /* Hidden by default */
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show1 {
+	display: block;
+  }
+  
+  /* Style the buttons */
+  .btn1 {
+	border: none;
+	outline: none;
+	padding: 12px 16px;
+	background-color: #f1f1f1;
+	cursor: pointer;
+  }
+  
+  /* Add a light grey background on mouse-over */
+  .btn:hover {
+	background-color: #ddd;
+  }
+  
+  /* Add a dark background to the active button */
+  .btn.active1 {
+	background-color: #666;
+	color: white;
+  }
+
+  .s003 {
+	height: 150px;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: center;
+		justify-content: center;
+	-ms-flex-align: center;
+		align-items: center;
+	font-family: 'Poppins', sans-serif;
+	background-color: #f6ff00;
+	background-size: cover;
+	background-position: center center;
+	padding: 15px;
+  }
+  
+  .s003 form {
+	width: 100%;
+	max-width: 790px;
+	margin-bottom: 0;
+  }
+  
+  .s003 form .inner-form {
+	background: #fff;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	-ms-flex-pack: justify;
+		justify-content: space-between;
+	-ms-flex-align: center;
+		align-items: center;
+	box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+	border-radius: 3px;
+  }
+  
+  .s003 form .inner-form .input-field {
+	height: 68px;
+  }
+  
+  .s003 form .inner-form .input-field input {
+	height: 100%;
+	background: transparent;
+	border: 0;
+	display: block;
+	width: 100%;
+	padding: 10px 32px;
+	font-size: 16px;
+	color: #555;
+  }
+  
+  .s003 form .inner-form .input-field input.placeholder {
+	color: #888;
+	font-size: 16px;
+  }
+  
+  .s003 form .inner-form .input-field input:-moz-placeholder {
+	color: #888;
+	font-size: 16px;
+  }
+  
+  .s003 form .inner-form .input-field input::-webkit-input-placeholder {
+	color: #888;
+	font-size: 16px;
+  }
+  
+  .s003 form .inner-form .input-field input:hover, .s003 form .inner-form .input-field input:focus {
+	box-shadow: none;
+	outline: 0;
+	border-color: #fff;
+  }
+  
+  .s003 form .inner-form .input-field.first-wrap {
+	width: 200px;
+	border-right: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .s003 form .inner-form .input-field.first-wrap .choices__inner {
+	background: transparent;
+	border-radius: 0;
+	border: 0;
+	height: 100%;
+	color: #fff;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+		align-items: center;
+	padding: 10px 30px;
+  }
+  
+  .s003 form .inner-form .input-field.first-wrap .choices__inner .choices__list.choices__list--single {
+	display: -ms-flexbox;
+	display: flex;
+	padding: 0;
+	-ms-flex-align: center;
+		align-items: center;
+	height: 100%;
+  }
+  
+  .s003 form .inner-form .input-field.first-wrap .choices__inner .choices__item.choices__item--selectable.choices__placeholder {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+		align-items: center;
+	height: 100%;
+	opacity: 1;
+	color: #888;
+  }
+  
+  .s003 form .inner-form .input-field.first-wrap .choices__inner .choices__list--single .choices__item {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+		align-items: center;
+	height: 100%;
+	color: #555;
+  }
+  
+  .s003 form .inner-form .input-field.first-wrap .choices[data-type*="select-one"]:after {
+	right: 30px;
+	border-color: #e5e5e5 transparent transparent transparent;
+  }
+  
+  .s003 form .inner-form .input-field.first-wrap .choices__list.choices__list--dropdown {
+	border: 0;
+	background: #fff;
+	padding: 20px 30px;
+	margin-top: 2px;
+	border-radius: 4px;
+	box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  }
+  
+  .s003 form .inner-form .input-field.first-wrap .choices__list.choices__list--dropdown .choices__item--selectable {
+	padding-right: 0;
+  }
+  
+  .s003 form .inner-form .input-field.first-wrap .choices__list--dropdown .choices__item--selectable.is-highlighted {
+	background: #fff;
+	color: #63c76a;
+  }
+  
+  .s003 form .inner-form .input-field.first-wrap .choices__list--dropdown .choices__item {
+	color: #555;
+	min-height: 24px;
+  }
+  
+  .s003 form .inner-form .input-field.second-wrap {
+	-ms-flex-positive: 1;
+		flex-grow: 1;
+  }
+  
+  .s003 form .inner-form .input-field.third-wrap {
+	width: 74px;
+  }
+  
+  .s003 form .inner-form .input-field.third-wrap .btn-search {
+	height: 100%;
+	width: 100%;
+	white-space: nowrap;
+	color: #fff;
+	border: 0;
+	cursor: pointer;
+	background: #63c76a;
+	transition: all .2s ease-out, color .2s ease-out;
+  }
+  
+  .s003 form .inner-form .input-field.third-wrap .btn-search svg {
+	width: 16px;
+  }
+  
+  .s003 form .inner-form .input-field.third-wrap .btn-search:hover {
+	background: #50c058;
+  }
+  
+  .s003 form .inner-form .input-field.third-wrap .btn-search:focus {
+	outline: 0;
+	box-shadow: none;
+  }
+  
+
+}
+
+@media (min-width: 365px) and (max-width: 380px) {
+
+	#fonlama 
+	{ 
+		 left: 150px; 
+		 top: 50px; 
+		 position: relative; 
+		 width: 650px;
+		 height: 450px;
+		 
+	} 
+	
+	#yer
+	{  
+		 position: static; 
+		 
+		 
+	} 
+	
+	
+	#hedef
+	{ 
+		display: none;
+
+		 left: 0px; 
+		 top: 0px; 
+		 position: relative; 
+		 width: 0px;
+		 height: 0px;
+		 z-index:10;
+	} 
+	
+	#hedefmobil
+	{ 
+		 left: 146px; 
+		 top: -77px; 
+		 position: relative; 
+		 width: 94px;
+		 height: 17px;
+		 z-index:10;
+	} 
+
+
+
+	#değer
+	{ 
+		 display: none;
+		 left: 0px; 
+		 top: 0px; 
+		 position: absolute; 
+		 width: 0px;
+		 height: 0px;
+		 z-index:11;
+	} 
+	
+	#değermobil
+	{ 
+		 left: 154px; 
+		 top: 354px; 
+		 position: absolute; 
+		 color: rgb(0, 0, 0);
+
+		 width: 195px;
+		 height: 25px;
+		 z-index:11;
+	}
+	
+	
+	
+	
+	#filtre
+	{ 
+		 left: auto; 
+		 top: auto; 
+		 position: relative; 
+		 width: 0px;
+		 height: 0px;
+		 z-index:11;
+	} 
+	
+	
+	
+	
+	
+	.aw-zoom
+	{
+		position: relative;
+		-webkit-transform: scale(1);
+		-ms-transform: scale(1);
+		-moz-transform: scale(1);
+		transition: all .3s ease-in;
+		-moz-transition: all .3s ease-in;
+		-webkit-transition: all .3s ease-in;
+		-ms-transition: all .3s ease-in;
+	}
+	
+	.aw-zoom:hover
+	{
+		z-index:2;
+		-webkit-transform: scale(1.5);
+		-ms-transform: scale(1.5);  
+		-moz-transform: scale(1.5);
+		transform: scale(1.5);
+	}
+	
+	#hepsi
+	{ 
+		 left: auto; 
+		 top: auto; 
+		 position: relative; 
+		 width: 0px;
+		 height: 0px;
+		 z-index: 25;
+	} 
+	
+
+	#fonyeri
+	{ 
+		 left: auto; 
+		 top: -250px; 
+		 position: relative; 
+		 width: auto;
+		 height: auto;
+		 z-index: 25;
+	} 
+	
+
+
+
+	#hepsimobil
+	{ 
+		 left: 25px; 
+		 top: 0px; 
+		 position: relative; 
+		 width: 100px;
+		 height: 100px;
+		 z-index: 25;
+	} 
+
+
+
+	#tekno
+	{ 
+		 left: auto; 
+		 top: auto; 
+		 position: relative; 
+		 width: 0px;
+		 height: 0px;
+		 z-index: 25;
+	} 
+	
+
+	#teknomobil
+	{ 
+		 left: 144px; 
+		 top: -90px; 
+		 position: relative; 
+		 width: 120px;
+		 height: 120px;
+		 z-index: 25;
+	} 
+
+
+	#girisim
+	{ 
+		 left: auto; 
+		 top: auto; 
+		 position: relative; 
+		 width: 0px;
+		 height: 0px;
+		 z-index: 25;
+	} 
+
+	#girisimmobil
+	{ 
+		 left: 65px; 
+		 top: -157px; 
+		 position: relative; 
+		 width: 100px;
+		 height: 100px;
+		 z-index: 25;
+	} 
+	
+	
+	#sosyal
+	{ 
+		 left: auto; 
+		 top: auto; 
+		 position: relative; 
+		 width: 0px;
+		 height: 0px;
+		 z-index: 25;
+	} 
+	
+
+
+	#sosyalmobil
+	{ 
+		 left: 250px; 
+		 top: -250px; 
+		 position: relative; 
+		 width: 100px;
+		 height: 100px;
+		 z-index: 25;
+	} 
+
+
+
+	#fonlama2  
+	{ 
+		 left: 1000px; 
+		 top: -390px; 
+		 position: relative; 
+		 width: 650px;
+		 height: 450px;
+		 
+	} 
+	
+	
+	
+	
+	 #kalıp 
+	{ 
+		 left: 0px; 
+		 top: 0px; 
+		 position: relative; 
+		 
+		 z-index:1;
+	} 
+	
+	 #FonBal 
+	{ 
+	  font-size: 0px;
+	  color: rgb(0, 0, 0);
+		 left: 0px; 
+		 top: 0px; 
+		 position: relative; 
+		 width: 0px;
+		 height: 0px;
+		 z-index:2;
+		 word-wrap:break-word;
+		 
+	} 
+	
+
+	#FonBalmobil 
+	{ 
+	  font-size: 15px;
+	  color: rgb(0, 0, 0);
+		 left: 133px; 
+		 top: 145px; 
+		 position: absolute; 
+		 width: auto;
+		 height: auto;
+		 z-index:65;
+		 word-wrap:break-word;
+		 
+	} 
+
+
+
+	#detail
+	{ 
+		display: none;
+
+		   font-size: 0px;
+		  color: rgb(44, 44, 44);
+		 left: 0px; 
+		 top: 0px; 
+		 position: absolute; 
+		 width:0px; 
+		 word-wrap:break-word;
+		 z-index:3;
+	} 
+	
+
+
+	#detailmobil
+	{ 
+		   font-size: 20px;
+		  color: rgb(44, 44, 44);
+		 left: 110px; 
+		 top: 280px; 
+		 position: absolute; 
+		 width:200px; 
+		 word-wrap:break-word;
+		 z-index:3;
+	} 
+
+	
+	
+	 #Like 
+	{ 
+		   font-size: 0px;
+		  color: rgb(150, 40, 40);
+		 left: 0px; 
+		 top: 0px; 
+		 position: relative; 
+		 width: 0px;
+		 height: 0px;
+		 z-index:3;
+	} 
+	
+
+	#Likemobil 
+	{ 
+		   font-size: 30px;
+		  color: rgb(150, 40, 40);
+		 left: 70px; 
+		 top: 310px; 
+		 position: absolute; 
+		 
+		 z-index:3;
+	} 
+
+
+	 #Dislike 
+	{ 
+		 font-size: 0px;
+		 display: none;
+
+		 color: rgb(150, 40, 40);
+		 left: 0px; 
+		 top: 0px; 
+		 position: relative; 
+		 width: 0px;
+		 height: 0px;
+		 z-index:4;
+	} 
+	
+
+	#Dislikemobil 
+	{ 
+		 font-size: 30px;
+		 
+		 color: rgb(150, 40, 40);
+		 left: 273px; 
+		 top: 315px; 
+		 position: absolute; 
+		 
+		 z-index:4;
+	} 
+
+
+
+	 #FonToplananProjeHakk 
+	{ 
+		 left: 409px; 
+		 top: 765px; 
+		 position: absolute; 
+		 width: 352px;
+		 height: 15px;
+		 z-index:5;
+	} 
+	
+	
+	#incelebuton
+	{ 
+		 border: none;
+		  padding: 8px 14px;
+		  text-align: center;
+		 text-decoration: none;
+		 display: inline-block;
+		 font-size: 12px;
+		left: 150px; 
+		top: 350px; 
+		position: absolute; 
+		width: 75px;
+		height: 60px;
+		z-index:6;
+	} 
+	
+	 #foto 
+	{ 
+		 left: auto; 
+		 top: -0px; 
+		 position: relative; 
+		 width: 0px;
+		 height: 0px;
+		 z-index:6;
+	} 
+	
+	#fotomobil 
+	{ 
+		 left: 120px; 
+		 top: 180px; 
+		 position: relative; 
+		 width: 140px;
+		 height: 130px;
+		 z-index:6;
+	}
+	
+	  
+	  .filterDiv {
+		display: none; /* Hidden by default */
+	  }
+	  
+	  /* The "show" class is added to the filtered elements */
+	  .show1 {
+		display: block;
+	  }
+	  
+	  /* Style the buttons */
+	  .btn1 {
+		border: none;
+		outline: none;
+		padding: 12px 16px;
+		background-color: #f1f1f1;
+		cursor: pointer;
+	  }
+	  
+	  /* Add a light grey background on mouse-over */
+	  .btn:hover {
+		background-color: #ddd;
+	  }
+	  
+	  /* Add a dark background to the active button */
+	  .btn.active1 {
+		background-color: #666;
+		color: white;
+	  }
+	  .s003 {
+		height: 150px;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-pack: center;
+			justify-content: center;
+		-ms-flex-align: center;
+			align-items: center;
+		font-family: 'Poppins', sans-serif;
+		background-color: #f6ff00;
+		background-size: cover;
+		background-position: center center;
+		padding: 15px;
+	  }
+	  
+	  .s003 form {
+		width: 100%;
+		max-width: 790px;
+		margin-bottom: 0;
+	  }
+	  
+	  .s003 form .inner-form {
+		background: #fff;
+		display: -ms-flexbox;
+		display: flex;
+		width: 100%;
+		-ms-flex-pack: justify;
+			justify-content: space-between;
+		-ms-flex-align: center;
+			align-items: center;
+		box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+		border-radius: 3px;
+	  }
+	  
+	  .s003 form .inner-form .input-field {
+		height: 68px;
+	  }
+	  
+	  .s003 form .inner-form .input-field input {
+		height: 100%;
+		background: transparent;
+		border: 0;
+		display: block;
+		width: 100%;
+		padding: 10px 32px;
+		font-size: 16px;
+		color: #555;
+	  }
+	  
+	  .s003 form .inner-form .input-field input.placeholder {
+		color: #888;
+		font-size: 16px;
+	  }
+	  
+	  .s003 form .inner-form .input-field input:-moz-placeholder {
+		color: #888;
+		font-size: 16px;
+	  }
+	  
+	  .s003 form .inner-form .input-field input::-webkit-input-placeholder {
+		color: #888;
+		font-size: 16px;
+	  }
+	  
+	  .s003 form .inner-form .input-field input:hover, .s003 form .inner-form .input-field input:focus {
+		box-shadow: none;
+		outline: 0;
+		border-color: #fff;
+	  }
+	  
+	  .s003 form .inner-form .input-field.first-wrap {
+		width: 200px;
+		border-right: 1px solid rgba(0, 0, 0, 0.1);
+	  }
+	  
+	  .s003 form .inner-form .input-field.first-wrap .choices__inner {
+		background: transparent;
+		border-radius: 0;
+		border: 0;
+		height: 100%;
+		color: #fff;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-align: center;
+			align-items: center;
+		padding: 10px 30px;
+	  }
+	  
+	  .s003 form .inner-form .input-field.first-wrap .choices__inner .choices__list.choices__list--single {
+		display: -ms-flexbox;
+		display: flex;
+		padding: 0;
+		-ms-flex-align: center;
+			align-items: center;
+		height: 100%;
+	  }
+	  
+	  .s003 form .inner-form .input-field.first-wrap .choices__inner .choices__item.choices__item--selectable.choices__placeholder {
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-align: center;
+			align-items: center;
+		height: 100%;
+		opacity: 1;
+		color: #888;
+	  }
+	  
+	  .s003 form .inner-form .input-field.first-wrap .choices__inner .choices__list--single .choices__item {
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-align: center;
+			align-items: center;
+		height: 100%;
+		color: #555;
+	  }
+	  
+	  .s003 form .inner-form .input-field.first-wrap .choices[data-type*="select-one"]:after {
+		right: 30px;
+		border-color: #e5e5e5 transparent transparent transparent;
+	  }
+	  
+	  .s003 form .inner-form .input-field.first-wrap .choices__list.choices__list--dropdown {
+		border: 0;
+		background: #fff;
+		padding: 20px 30px;
+		margin-top: 2px;
+		border-radius: 4px;
+		box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+	  }
+	  
+	  .s003 form .inner-form .input-field.first-wrap .choices__list.choices__list--dropdown .choices__item--selectable {
+		padding-right: 0;
+	  }
+	  
+	  .s003 form .inner-form .input-field.first-wrap .choices__list--dropdown .choices__item--selectable.is-highlighted {
+		background: #fff;
+		color: #63c76a;
+	  }
+	  
+	  .s003 form .inner-form .input-field.first-wrap .choices__list--dropdown .choices__item {
+		color: #555;
+		min-height: 24px;
+	  }
+	  
+	  .s003 form .inner-form .input-field.second-wrap {
+		-ms-flex-positive: 1;
+			flex-grow: 1;
+	  }
+	  
+	  .s003 form .inner-form .input-field.third-wrap {
+		width: 74px;
+	  }
+	  
+	  .s003 form .inner-form .input-field.third-wrap .btn-search {
+		height: 100%;
+		width: 100%;
+		white-space: nowrap;
+		color: #fff;
+		border: 0;
+		cursor: pointer;
+		background: #63c76a;
+		transition: all .2s ease-out, color .2s ease-out;
+	  }
+	  
+	  .s003 form .inner-form .input-field.third-wrap .btn-search svg {
+		width: 16px;
+	  }
+	  
+	  .s003 form .inner-form .input-field.third-wrap .btn-search:hover {
+		background: #50c058;
+	  }
+	  
+	  .s003 form .inner-form .input-field.third-wrap .btn-search:focus {
+		outline: 0;
+		box-shadow: none;
+	  }
+	  
+	}
+	
+	
+	@media (min-width: 349px) and (max-width: 364px) {
+
+		#fonlama 
+		{ 
+			 left: 150px; 
+			 top: 50px; 
+			 position: relative; 
+			 width: 650px;
+			 height: 450px;
+			 
+		} 
+		
+		#yer
+		{  
+			 position: static; 
+			 
+			 
+		} 
+		
+		
+		#hedef
+		{ 
+			display: none;
+	
+			 left: 0px; 
+			 top: 0px; 
+			 position: relative; 
+			 width: 0px;
+			 height: 0px;
+			 z-index:10;
+		} 
+		
+		#hedefmobil
+		{ 
+			 left: 138px; 
+			 top: -75px; 
+			 position: relative; 
+			 width: 94px;
+			 height: 17px;
+			 z-index:10;
+		} 
+	
+	
+	
+		#değer
+		{ 
+			 display: none;
+			 left: 0px; 
+			 top: 0px; 
+			 position: absolute; 
+			 width: 0px;
+			 height: 0px;
+			 z-index:11;
+		} 
+		
+		#değermobil
+		{ 
+			 left: 148px; 
+			 top: 345px; 
+			 position: absolute; 
+			 color: rgb(0, 0, 0);
+	
+			 width: 195px;
+			 height: 25px;
+			 z-index:11;
+		}
+		
+		
+		
+		
+		#filtre
+		{ 
+			 left: auto; 
+			 top: auto; 
+			 position: relative; 
+			 width: 0px;
+			 height: 0px;
+			 z-index:11;
+		} 
+		
+		
+		
+		
+		
+		.aw-zoom
+		{
+			position: relative;
+			-webkit-transform: scale(1);
+			-ms-transform: scale(1);
+			-moz-transform: scale(1);
+			transition: all .3s ease-in;
+			-moz-transition: all .3s ease-in;
+			-webkit-transition: all .3s ease-in;
+			-ms-transition: all .3s ease-in;
+		}
+		
+		.aw-zoom:hover
+		{
+			z-index:2;
+			-webkit-transform: scale(1.5);
+			-ms-transform: scale(1.5);  
+			-moz-transform: scale(1.5);
+			transform: scale(1.5);
+		}
+		
+		#hepsi
+		{ 
+			 left: auto; 
+			 top: auto; 
+			 position: relative; 
+			 width: 0px;
+			 height: 0px;
+			 z-index: 25;
+		} 
+		
+	
+		#fonyeri
+		{ 
+			 left: auto; 
+			 top: -250px; 
+			 position: relative; 
+			 width: auto;
+			 height: auto;
+			 z-index: 25;
+		} 
+		
+	
+	
+	
+		#hepsimobil
+		{ 
+			 left: 25px; 
+			 top: 0px; 
+			 position: relative; 
+			 width: 100px;
+			 height: 100px;
+			 z-index: 25;
+		} 
+	
+	
+	
+		#tekno
+		{ 
+			 left: auto; 
+			 top: auto; 
+			 position: relative; 
+			 width: 0px;
+			 height: 0px;
+			 z-index: 25;
+		} 
+		
+	
+		#teknomobil
+		{ 
+			 left: 144px; 
+			 top: -90px; 
+			 position: relative; 
+			 width: 120px;
+			 height: 120px;
+			 z-index: 25;
+		} 
+	
+	
+		#girisim
+		{ 
+			 left: auto; 
+			 top: auto; 
+			 position: relative; 
+			 width: 0px;
+			 height: 0px;
+			 z-index: 25;
+		} 
+	
+		#girisimmobil
+		{ 
+			 left: 65px; 
+			 top: -157px; 
+			 position: relative; 
+			 width: 100px;
+			 height: 100px;
+			 z-index: 25;
+		} 
+		
+		
+		#sosyal
+		{ 
+			 left: auto; 
+			 top: auto; 
+			 position: relative; 
+			 width: 0px;
+			 height: 0px;
+			 z-index: 25;
+		} 
+		
+	
+	
+		#sosyalmobil
+		{ 
+			 left: 250px; 
+			 top: -250px; 
+			 position: relative; 
+			 width: 100px;
+			 height: 100px;
+			 z-index: 25;
+		} 
+	
+	
+	
+		#fonlama2  
+		{ 
+			 left: 1000px; 
+			 top: -390px; 
+			 position: relative; 
+			 width: 650px;
+			 height: 450px;
+			 
+		} 
+		
+		
+		
+		
+		 #kalıp 
+		{ 
+			 left: 0px; 
+			 top: 0px; 
+			 position: relative; 
+			 
+			 z-index:1;
+		} 
+		
+		 #FonBal 
+		{ 
+		  font-size: 0px;
+		  color: rgb(0, 0, 0);
+			 left: 0px; 
+			 top: 0px; 
+			 position: relative; 
+			 width: 0px;
+			 height: 0px;
+			 z-index:2;
+			 word-wrap:break-word;
+			 
+		} 
+		
+	
+		#FonBalmobil 
+		{ 
+		  font-size: 15px;
+		  color: rgb(0, 0, 0);
+			 left: 125px; 
+			 top: 145px; 
+			 position: absolute; 
+			 width: auto;
+			 height: auto;
+			 z-index:65;
+			 word-wrap:break-word;
+			 
+		} 
+	
+	
+	
+		#detail
+		{ 
+			display: none;
+	
+			   font-size: 0px;
+			  color: rgb(44, 44, 44);
+			 left: 0px; 
+			 top: 0px; 
+			 position: absolute; 
+			 width:0px; 
+			 word-wrap:break-word;
+			 z-index:3;
+		} 
+		
+	
+	
+		#detailmobil
+		{ 
+			   font-size: 20px;
+			  color: rgb(44, 44, 44);
+			 left: 110px; 
+			 top: 280px; 
+			 position: absolute; 
+			 width:200px; 
+			 word-wrap:break-word;
+			 z-index:3;
+		} 
+	
+		
+		
+		 #Like 
+		{ 
+			   font-size: 0px;
+			  color: rgb(150, 40, 40);
+			 left: 0px; 
+			 top: 0px; 
+			 position: relative; 
+			 width: 0px;
+			 height: 0px;
+			 z-index:3;
+		} 
+		
+	
+		#Likemobil 
+		{ 
+			   font-size: 30px;
+			  color: rgb(150, 40, 40);
+			 left: 70px; 
+			 top: 310px; 
+			 position: absolute; 
+			 
+			 z-index:3;
+		} 
+	
+	
+		 #Dislike 
+		{ 
+			 font-size: 0px;
+			 display: none;
+	
+			 color: rgb(150, 40, 40);
+			 left: 0px; 
+			 top: 0px; 
+			 position: relative; 
+			 width: 0px;
+			 height: 0px;
+			 z-index:4;
+		} 
+		
+	
+		#Dislikemobil 
+		{ 
+			 font-size: 30px;
+			 
+			 color: rgb(150, 40, 40);
+			 left: 268px; 
+			 top: 308px; 
+			 position: absolute; 
+			 
+			 z-index:4;
+		} 
+	
+	
+	
+		 #FonToplananProjeHakk 
+		{ 
+			 left: 409px; 
+			 top: 765px; 
+			 position: absolute; 
+			 width: 352px;
+			 height: 15px;
+			 z-index:5;
+		} 
+		
+		
+		#incelebuton
+		{ 
+			 border: none;
+			  padding: 8px 14px;
+			  text-align: center;
+			 text-decoration: none;
+			 display: inline-block;
+			 font-size: 12px;
+			left: 150px; 
+			top: 350px; 
+			position: absolute; 
+			width: 75px;
+			height: 60px;
+			z-index:6;
+		} 
+		
+		 #foto 
+		{ 
+			 left: auto; 
+			 top: -0px; 
+			 position: relative; 
+			 width: 0px;
+			 height: 0px;
+			 z-index:6;
+		} 
+		
+		#fotomobil 
+		{ 
+			 left: 120px; 
+			 top: 180px; 
+			 position: relative; 
+			 width: 140px;
+			 height: 130px;
+			 z-index:6;
+		}
+		
+		  
+		  .filterDiv {
+			display: none; /* Hidden by default */
+		  }
+		  
+		  /* The "show" class is added to the filtered elements */
+		  .show1 {
+			display: block;
+		  }
+		  
+		  /* Style the buttons */
+		  .btn1 {
+			border: none;
+			outline: none;
+			padding: 12px 16px;
+			background-color: #f1f1f1;
+			cursor: pointer;
+		  }
+		  
+		  /* Add a light grey background on mouse-over */
+		  .btn:hover {
+			background-color: #ddd;
+		  }
+		  
+		  /* Add a dark background to the active button */
+		  .btn.active1 {
+			background-color: #666;
+			color: white;
+		  }
+		  .s003 {
+			height: 150px;
+			display: -ms-flexbox;
+			display: flex;
+			-ms-flex-pack: center;
+				justify-content: center;
+			-ms-flex-align: center;
+				align-items: center;
+			font-family: 'Poppins', sans-serif;
+			background-color: #f6ff00;
+			background-size: cover;
+			background-position: center center;
+			padding: 15px;
+		  }
+		  
+		  .s003 form {
+			width: 100%;
+			max-width: 790px;
+			margin-bottom: 0;
+		  }
+		  
+		  .s003 form .inner-form {
+			background: #fff;
+			display: -ms-flexbox;
+			display: flex;
+			width: 100%;
+			-ms-flex-pack: justify;
+				justify-content: space-between;
+			-ms-flex-align: center;
+				align-items: center;
+			box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+			border-radius: 3px;
+		  }
+		  
+		  .s003 form .inner-form .input-field {
+			height: 68px;
+		  }
+		  
+		  .s003 form .inner-form .input-field input {
+			height: 100%;
+			background: transparent;
+			border: 0;
+			display: block;
+			width: 100%;
+			padding: 10px 32px;
+			font-size: 16px;
+			color: #555;
+		  }
+		  
+		  .s003 form .inner-form .input-field input.placeholder {
+			color: #888;
+			font-size: 16px;
+		  }
+		  
+		  .s003 form .inner-form .input-field input:-moz-placeholder {
+			color: #888;
+			font-size: 16px;
+		  }
+		  
+		  .s003 form .inner-form .input-field input::-webkit-input-placeholder {
+			color: #888;
+			font-size: 16px;
+		  }
+		  
+		  .s003 form .inner-form .input-field input:hover, .s003 form .inner-form .input-field input:focus {
+			box-shadow: none;
+			outline: 0;
+			border-color: #fff;
+		  }
+		  
+		  .s003 form .inner-form .input-field.first-wrap {
+			width: 200px;
+			border-right: 1px solid rgba(0, 0, 0, 0.1);
+		  }
+		  
+		  .s003 form .inner-form .input-field.first-wrap .choices__inner {
+			background: transparent;
+			border-radius: 0;
+			border: 0;
+			height: 100%;
+			color: #fff;
+			display: -ms-flexbox;
+			display: flex;
+			-ms-flex-align: center;
+				align-items: center;
+			padding: 10px 30px;
+		  }
+		  
+		  .s003 form .inner-form .input-field.first-wrap .choices__inner .choices__list.choices__list--single {
+			display: -ms-flexbox;
+			display: flex;
+			padding: 0;
+			-ms-flex-align: center;
+				align-items: center;
+			height: 100%;
+		  }
+		  
+		  .s003 form .inner-form .input-field.first-wrap .choices__inner .choices__item.choices__item--selectable.choices__placeholder {
+			display: -ms-flexbox;
+			display: flex;
+			-ms-flex-align: center;
+				align-items: center;
+			height: 100%;
+			opacity: 1;
+			color: #888;
+		  }
+		  
+		  .s003 form .inner-form .input-field.first-wrap .choices__inner .choices__list--single .choices__item {
+			display: -ms-flexbox;
+			display: flex;
+			-ms-flex-align: center;
+				align-items: center;
+			height: 100%;
+			color: #555;
+		  }
+		  
+		  .s003 form .inner-form .input-field.first-wrap .choices[data-type*="select-one"]:after {
+			right: 30px;
+			border-color: #e5e5e5 transparent transparent transparent;
+		  }
+		  
+		  .s003 form .inner-form .input-field.first-wrap .choices__list.choices__list--dropdown {
+			border: 0;
+			background: #fff;
+			padding: 20px 30px;
+			margin-top: 2px;
+			border-radius: 4px;
+			box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+		  }
+		  
+		  .s003 form .inner-form .input-field.first-wrap .choices__list.choices__list--dropdown .choices__item--selectable {
+			padding-right: 0;
+		  }
+		  
+		  .s003 form .inner-form .input-field.first-wrap .choices__list--dropdown .choices__item--selectable.is-highlighted {
+			background: #fff;
+			color: #63c76a;
+		  }
+		  
+		  .s003 form .inner-form .input-field.first-wrap .choices__list--dropdown .choices__item {
+			color: #555;
+			min-height: 24px;
+		  }
+		  
+		  .s003 form .inner-form .input-field.second-wrap {
+			-ms-flex-positive: 1;
+				flex-grow: 1;
+		  }
+		  
+		  .s003 form .inner-form .input-field.third-wrap {
+			width: 74px;
+		  }
+		  
+		  .s003 form .inner-form .input-field.third-wrap .btn-search {
+			height: 100%;
+			width: 100%;
+			white-space: nowrap;
+			color: #fff;
+			border: 0;
+			cursor: pointer;
+			background: #63c76a;
+			transition: all .2s ease-out, color .2s ease-out;
+		  }
+		  
+		  .s003 form .inner-form .input-field.third-wrap .btn-search svg {
+			width: 16px;
+		  }
+		  
+		  .s003 form .inner-form .input-field.third-wrap .btn-search:hover {
+			background: #50c058;
+		  }
+		  
+		  .s003 form .inner-form .input-field.third-wrap .btn-search:focus {
+			outline: 0;
+			box-shadow: none;
+		  }
+		  
+		}
+		
+
+
+
+		@media (min-width: 300px) and (max-width: 330px) {
+
+			#fonlama 
+			{ 
+				 left: 150px; 
+				 top: 50px; 
+				 position: relative; 
+				 width: 650px;
+				 height: 450px;
+				 
+			} 
+			
+			#yer
+			{  
+				 position: static; 
+				 
+				 
+			} 
+			
+			
+			#hedef
+			{ 
+				display: none;
+		
+				 left: 0px; 
+				 top: 0px; 
+				 position: relative; 
+				 width: 0px;
+				 height: 0px;
+				 z-index:10;
+			} 
+			
+			#hedefmobil
+			{ 
+				 left: 125px; 
+				 top: -67px; 
+				 position: relative; 
+				 width: 80px;
+				 height: 16px;
+				 z-index:10;
+			} 
+		
+		
+		
+			#değer
+			{ 
+				 display: none;
+				 left: 0px; 
+				 top: 0px; 
+				 position: absolute; 
+				 width: 0px;
+				 height: 0px;
+				 z-index:11;
+			} 
+			
+			#değermobil
+			{ 
+				 left: 127px; 
+				 top: 300px; 
+				 position: absolute; 
+				 color: rgb(0, 0, 0);
+		
+				 width: 110px;
+				 height: 10px;
+				 z-index:11;
+			}
+			
+			
+			
+			
+			#filtre
+			{ 
+				 left: auto; 
+				 top: auto; 
+				 position: relative; 
+				 width: 0px;
+				 height: 0px;
+				 z-index:11;
+			} 
+			
+			
+			
+			
+			
+			.aw-zoom
+			{
+				position: relative;
+				-webkit-transform: scale(1);
+				-ms-transform: scale(1);
+				-moz-transform: scale(1);
+				transition: all .3s ease-in;
+				-moz-transition: all .3s ease-in;
+				-webkit-transition: all .3s ease-in;
+				-ms-transition: all .3s ease-in;
+			}
+			
+			.aw-zoom:hover
+			{
+				z-index:2;
+				-webkit-transform: scale(1.5);
+				-ms-transform: scale(1.5);  
+				-moz-transform: scale(1.5);
+				transform: scale(1.5);
+			}
+			
+			#hepsi
+			{ 
+				 left: auto; 
+				 top: auto; 
+				 position: relative; 
+				 width: 0px;
+				 height: 0px;
+				 z-index: 25;
+			} 
+			
+		
+			#fonyeri
+			{ 
+				 left: auto; 
+				 top: -250px; 
+				 position: relative; 
+				 width: auto;
+				 height: auto;
+				 z-index: 25;
+			} 
+			
+		
+		
+		
+			#hepsimobil
+			{ 
+				 left: 25px; 
+				 top: 0px; 
+				 position: relative; 
+				 width: 100px;
+				 height: 100px;
+				 z-index: 25;
+			} 
+		
+		
+		
+			#tekno
+			{ 
+				 left: auto; 
+				 top: auto; 
+				 position: relative; 
+				 width: 0px;
+				 height: 0px;
+				 z-index: 25;
+			} 
+			
+		
+			#teknomobil
+			{ 
+				 left: 144px; 
+				 top: -90px; 
+				 position: relative; 
+				 width: 120px;
+				 height: 120px;
+				 z-index: 25;
+			} 
+		
+		
+			#girisim
+			{ 
+				 left: auto; 
+				 top: auto; 
+				 position: relative; 
+				 width: 0px;
+				 height: 0px;
+				 z-index: 25;
+			} 
+		
+			#girisimmobil
+			{ 
+				 left: 65px; 
+				 top: -157px; 
+				 position: relative; 
+				 width: 100px;
+				 height: 100px;
+				 z-index: 25;
+			} 
+			
+			
+			#sosyal
+			{ 
+				 left: auto; 
+				 top: auto; 
+				 position: relative; 
+				 width: 0px;
+				 height: 0px;
+				 z-index: 25;
+			} 
+			
+		
+		
+			#sosyalmobil
+			{ 
+				 left: 210px; 
+				 top: -250px; 
+				 position: relative; 
+				 width: 100px;
+				 height: 100px;
+				 z-index: 25;
+			} 
+		
+		
+		
+			#fonlama2  
+			{ 
+				 left: 1000px; 
+				 top: -390px; 
+				 position: relative; 
+				 width: 650px;
+				 height: 450px;
+				 
+			} 
+			
+			
+			
+			
+			 #kalıp 
+			{ 
+				 left: 0px; 
+				 top: 0px; 
+				 position: relative; 
+				 
+				 z-index:1;
+			} 
+			
+			 #FonBal 
+			{ 
+			  font-size: 0px;
+			  color: rgb(0, 0, 0);
+				 left: 0px; 
+				 top: 0px; 
+				 position: relative; 
+				 width: 0px;
+				 height: 0px;
+				 z-index:2;
+				 word-wrap:break-word;
+				 
+			} 
+			
+		
+			#FonBalmobil 
+			{ 
+			  font-size: 13px;
+			  color: rgb(0, 0, 0);
+				 left: 110px; 
+				 top: 125px; 
+				 position: absolute; 
+				 width: auto;
+				 height: auto;
+				 z-index:65;
+				 word-wrap:break-word;
+				 
+			} 
+		
+		
+		
+			#detail
+			{ 
+				display: none;
+		
+				   font-size: 0px;
+				  color: rgb(44, 44, 44);
+				 left: 0px; 
+				 top: 0px; 
+				 position: absolute; 
+				 width:0px; 
+				 word-wrap:break-word;
+				 z-index:3;
+			} 
+			
+		
+		
+			#detailmobil
+			{ 
+				   font-size: 15px;
+				  color: rgb(44, 44, 44);
+				 left: 100px; 
+				 top: 260px; 
+				 position: absolute; 
+				 width:150px; 
+				 word-wrap:break-word;
+				 z-index:3;
+			} 
+		
+			
+			
+			 #Like 
+			{ 
+				   font-size: 0px;
+				  color: rgb(150, 40, 40);
+				 left: 0px; 
+				 top: 0px; 
+				 position: relative; 
+				 width: 0px;
+				 height: 0px;
+				 z-index:3;
+			} 
+			
+		
+			#Likemobil 
+			{ 
+				   font-size: 25px;
+				  color: rgb(150, 40, 40);
+				 left: 58px; 
+				 top: 260px; 
+				 position: absolute; 
+				 
+				 z-index:3;
+			} 
+		
+		
+			 #Dislike 
+			{ 
+				 font-size: 0px;
+				 display: none;
+		
+				 color: rgb(150, 40, 40);
+				 left: 0px; 
+				 top: 0px; 
+				 position: relative; 
+				 width: 0px;
+				 height: 0px;
+				 z-index:4;
+			} 
+			
+		
+			#Dislikemobil 
+			{ 
+				 font-size: 25px;
+				 
+				 color: rgb(150, 40, 40);
+				 left: 240px; 
+				 top: 260px; 
+				 position: absolute; 
+				 
+				 z-index:4;
+			} 
+		
+		
+		
+			 #FonToplananProjeHakk 
+			{ 
+				 left: 409px; 
+				 top: 765px; 
+				 position: absolute; 
+				 width: 352px;
+				 height: 15px;
+				 z-index:5;
+			} 
+			
+			
+			#incelebuton
+			{ 
+				 border: none;
+				  padding: 8px 14px;
+				  text-align: center;
+				 text-decoration: none;
+				 display: inline-block;
+				 font-size: 12px;
+				left: 150px; 
+				top: 350px; 
+				position: absolute; 
+				width: 75px;
+				height: 60px;
+				z-index:6;
+			} 
+			
+			 #foto 
+			{ 
+				 left: auto; 
+				 top: -0px; 
+				 position: relative; 
+				 width: 0px;
+				 height: 0px;
+				 z-index:6;
+			} 
+			
+			#fotomobil 
+			{ 
+				 left: 105px; 
+				 top: 152px; 
+				 position: relative; 
+				 width: 120px;
+				 height: 110px;
+				 z-index:6;
+			}
+			
+			  
+			  .filterDiv {
+				display: none; /* Hidden by default */
+			  }
+			  
+			  /* The "show" class is added to the filtered elements */
+			  .show1 {
+				display: block;
+			  }
+			  
+			  /* Style the buttons */
+			  .btn1 {
+				border: none;
+				outline: none;
+				padding: 12px 16px;
+				background-color: #f1f1f1;
+				cursor: pointer;
+			  }
+			  
+			  /* Add a light grey background on mouse-over */
+			  .btn:hover {
+				background-color: #ddd;
+			  }
+			  
+			  /* Add a dark background to the active button */
+			  .btn.active1 {
+				background-color: #666;
+				color: white;
+			  }
+			  .s003 {
+				height: 150px;
+				display: -ms-flexbox;
+				display: flex;
+				-ms-flex-pack: center;
+					justify-content: center;
+				-ms-flex-align: center;
+					align-items: center;
+				font-family: 'Poppins', sans-serif;
+				background-color: #f6ff00;
+				background-size: cover;
+				background-position: center center;
+				padding: 15px;
+			  }
+			  
+			  .s003 form {
+				width: 100%;
+				max-width: 790px;
+				margin-bottom: 0;
+			  }
+			  
+			  .s003 form .inner-form {
+				background: #fff;
+				display: -ms-flexbox;
+				display: flex;
+				width: 100%;
+				-ms-flex-pack: justify;
+					justify-content: space-between;
+				-ms-flex-align: center;
+					align-items: center;
+				box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+				border-radius: 3px;
+			  }
+			  
+			  .s003 form .inner-form .input-field {
+				height: 68px;
+			  }
+			  
+			  .s003 form .inner-form .input-field input {
+				height: 100%;
+				background: transparent;
+				border: 0;
+				display: block;
+				width: 100%;
+				padding: 10px 32px;
+				font-size: 16px;
+				color: #555;
+			  }
+			  
+			  .s003 form .inner-form .input-field input.placeholder {
+				color: #888;
+				font-size: 16px;
+			  }
+			  
+			  .s003 form .inner-form .input-field input:-moz-placeholder {
+				color: #888;
+				font-size: 16px;
+			  }
+			  
+			  .s003 form .inner-form .input-field input::-webkit-input-placeholder {
+				color: #888;
+				font-size: 16px;
+			  }
+			  
+			  .s003 form .inner-form .input-field input:hover, .s003 form .inner-form .input-field input:focus {
+				box-shadow: none;
+				outline: 0;
+				border-color: #fff;
+			  }
+			  
+			  .s003 form .inner-form .input-field.first-wrap {
+				width: 200px;
+				border-right: 1px solid rgba(0, 0, 0, 0.1);
+			  }
+			  
+			  .s003 form .inner-form .input-field.first-wrap .choices__inner {
+				background: transparent;
+				border-radius: 0;
+				border: 0;
+				height: 100%;
+				color: #fff;
+				display: -ms-flexbox;
+				display: flex;
+				-ms-flex-align: center;
+					align-items: center;
+				padding: 10px 30px;
+			  }
+			  
+			  .s003 form .inner-form .input-field.first-wrap .choices__inner .choices__list.choices__list--single {
+				display: -ms-flexbox;
+				display: flex;
+				padding: 0;
+				-ms-flex-align: center;
+					align-items: center;
+				height: 100%;
+			  }
+			  
+			  .s003 form .inner-form .input-field.first-wrap .choices__inner .choices__item.choices__item--selectable.choices__placeholder {
+				display: -ms-flexbox;
+				display: flex;
+				-ms-flex-align: center;
+					align-items: center;
+				height: 100%;
+				opacity: 1;
+				color: #888;
+			  }
+			  
+			  .s003 form .inner-form .input-field.first-wrap .choices__inner .choices__list--single .choices__item {
+				display: -ms-flexbox;
+				display: flex;
+				-ms-flex-align: center;
+					align-items: center;
+				height: 100%;
+				color: #555;
+			  }
+			  
+			  .s003 form .inner-form .input-field.first-wrap .choices[data-type*="select-one"]:after {
+				right: 30px;
+				border-color: #e5e5e5 transparent transparent transparent;
+			  }
+			  
+			  .s003 form .inner-form .input-field.first-wrap .choices__list.choices__list--dropdown {
+				border: 0;
+				background: #fff;
+				padding: 20px 30px;
+				margin-top: 2px;
+				border-radius: 4px;
+				box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+			  }
+			  
+			  .s003 form .inner-form .input-field.first-wrap .choices__list.choices__list--dropdown .choices__item--selectable {
+				padding-right: 0;
+			  }
+			  
+			  .s003 form .inner-form .input-field.first-wrap .choices__list--dropdown .choices__item--selectable.is-highlighted {
+				background: #fff;
+				color: #63c76a;
+			  }
+			  
+			  .s003 form .inner-form .input-field.first-wrap .choices__list--dropdown .choices__item {
+				color: #555;
+				min-height: 24px;
+			  }
+			  
+			  .s003 form .inner-form .input-field.second-wrap {
+				-ms-flex-positive: 1;
+					flex-grow: 1;
+			  }
+			  
+			  .s003 form .inner-form .input-field.third-wrap {
+				width: 74px;
+			  }
+			  
+			  .s003 form .inner-form .input-field.third-wrap .btn-search {
+				height: 100%;
+				width: 100%;
+				white-space: nowrap;
+				color: #fff;
+				border: 0;
+				cursor: pointer;
+				background: #63c76a;
+				transition: all .2s ease-out, color .2s ease-out;
+			  }
+			  
+			  .s003 form .inner-form .input-field.third-wrap .btn-search svg {
+				width: 16px;
+			  }
+			  
+			  .s003 form .inner-form .input-field.third-wrap .btn-search:hover {
+				background: #50c058;
+			  }
+			  
+			  .s003 form .inner-form .input-field.third-wrap .btn-search:focus {
+				outline: 0;
+				box-shadow: none;
+			  }
+			  
+			}
+			
+
+
+
+	@media (min-width: 400px) and (max-width: 420px) {
+
+		#fonlama 
+		{ 
+			 left: 150px; 
+			 top: 50px; 
+			 position: relative; 
+			 width: 650px;
+			 height: 450px;
+			 
+		} 
+		
+		#yer
+		{  
+			 position: static; 
+			 
+			 
+		} 
+		
+		
+		#hedef
+		{ 
+			display: none;
+	
+			 left: 0px; 
+			 top: 0px; 
+			 position: relative; 
+			 width: 0px;
+			 height: 0px;
+			 z-index:10;
+		} 
+		
+		#hedefmobil
+		{ 
+			 left: 155px; 
+			 top: -80px; 
+			 position: relative; 
+			 width: 94px;
+			 height: 17px;
+			 z-index:10;
+		} 
+	
+	
+	
+		#değer
+		{ 
+			 display: none;
+			 left: 0px; 
+			 top: 0px; 
+			 position: absolute; 
+			 width: 0px;
+			 height: 0px;
+			 z-index:11;
+		} 
+		
+		#değermobil
+		{ 
+			 left: 170px; 
+			 top: 36px; 
+			 position: absolute; 
+			 color: rgb(0, 0, 0);
+	
+			 width: 195px;
+			 height: 25px;
+			 z-index:11;
+		}
+		
+		
+		
+		
+		#filtre
+		{ 
+			 left: auto; 
+			 top: auto; 
+			 position: relative; 
+			 width: 0px;
+			 height: 0px;
+			 z-index:11;
+		} 
+		
+		
+		
+		
+		
+		.aw-zoom
+		{
+			position: relative;
+			-webkit-transform: scale(1);
+			-ms-transform: scale(1);
+			-moz-transform: scale(1);
+			transition: all .3s ease-in;
+			-moz-transition: all .3s ease-in;
+			-webkit-transition: all .3s ease-in;
+			-ms-transition: all .3s ease-in;
+		}
+		
+		.aw-zoom:hover
+		{
+			z-index:2;
+			-webkit-transform: scale(1.5);
+			-ms-transform: scale(1.5);  
+			-moz-transform: scale(1.5);
+			transform: scale(1.5);
+		}
+		
+		#hepsi
+		{ 
+			 left: auto; 
+			 top: auto; 
+			 position: relative; 
+			 width: 0px;
+			 height: 0px;
+			 z-index: 25;
+		} 
+		
+	
+		#fonyeri
+		{ 
+			 left: auto; 
+			 top: -250px; 
+			 position: relative; 
+			 width: auto;
+			 height: auto;
+			 z-index: 25;
+			 
+		} 
+		
+
+		#arkagif
+		{ 
+			 left: auto; 
+			 top: 0px; 
+			 position: relative; 
+			 width: auto;
+			 height: auto;
+			 z-index: 2;
+			 background-image: url("https://media.giphy.com/media/26n6G8lRMOrYC6rFS/giphy.gif");
+
+			 
+		} 
+	
+		#hepsimobil
+		{ 
+			 left: 25px; 
+			 top: 0px; 
+			 position: relative; 
+			 width: 100px;
+			 height: 100px;
+			 z-index: 25;
+		} 
+	
+	
+	
+		#tekno
+		{ 
+			 left: auto; 
+			 top: auto; 
+			 position: relative; 
+			 width: 0px;
+			 height: 0px;
+			 z-index: 25;
+		} 
+		
+	
+		#teknomobil
+		{ 
+			 left: 144px; 
+			 top: -90px; 
+			 position: relative; 
+			 width: 120px;
+			 height: 120px;
+			 z-index: 25;
+		} 
+	
+	
+		#girisim
+		{ 
+			 left: auto; 
+			 top: auto; 
+			 position: relative; 
+			 width: 0px;
+			 height: 0px;
+			 z-index: 25;
+		} 
+	
+		#girisimmobil
+		{ 
+			 left: 65px; 
+			 top: -157px; 
+			 position: relative; 
+			 width: 100px;
+			 height: 100px;
+			 z-index: 25;
+		} 
+		
+		
+		#sosyal
+		{ 
+			 left: auto; 
+			 top: auto; 
+			 position: relative; 
+			 width: 0px;
+			 height: 0px;
+			 z-index: 25;
+		} 
+		
+	
+	
+		#sosyalmobil
+		{ 
+			 left: 250px; 
+			 top: -250px; 
+			 position: relative; 
+			 width: 100px;
+			 height: 100px;
+			 z-index: 25;
+		} 
+	
+	
+	
+		#fonlama2  
+		{ 
+			 left: 1000px; 
+			 top: -390px; 
+			 position: relative; 
+			 width: 650px;
+			 height: 450px;
+			 
+		} 
+		
+		
+		
+		
+		 #kalıp 
+		{ 
+			 left: 0px; 
+			 top: 0px; 
+			 position: relative; 
+			 
+			 z-index:1;
+		} 
+		
+		 #FonBal 
+		{ 
+		  font-size: 0px;
+		  color: rgb(0, 0, 0);
+			 left: 0px; 
+			 top: 0px; 
+			 position: relative; 
+			 width: 0px;
+			 height: 0px;
+			 z-index:2;
+			 word-wrap:break-word;
+			 
+		} 
+		
+	
+		#FonBalmobil 
+		{ 
+		  font-size: 15px;
+		  color: rgb(0, 0, 0);
+			 left: 150px; 
+			 top: 145px; 
+			 position: absolute; 
+			 width: auto;
+			 height: auto;
+			 z-index:65;
+			 word-wrap:break-word;
+			 
+		} 
+	
+	
+	
+		#detail
+		{ 
+			display: none;
+	
+			   font-size: 0px;
+			  color: rgb(44, 44, 44);
+			 left: 0px; 
+			 top: 0px; 
+			 position: absolute; 
+			 width:0px; 
+			 word-wrap:break-word;
+			 z-index:3;
+		} 
+		
+	
+	
+		#detailmobil
+		{ 
+			   font-size: 20px;
+			  color: rgb(44, 44, 44);
+			 left: 120px; 
+			 top: 280px; 
+			 position: absolute; 
+			 width:200px; 
+			 word-wrap:break-word;
+			 z-index:3;
+		} 
+	
+		
+		
+		 #Like 
+		{ 
+			   font-size: 0px;
+			  color: rgb(150, 40, 40);
+			 left: 0px; 
+			 top: 0px; 
+			 position: relative; 
+			 width: 0px;
+			 height: 0px;
+			 z-index:3;
+		} 
+		
+	
+		#Likemobil 
+		{ 
+			   font-size: 30px;
+			  color: rgb(150, 40, 40);
+			 left: 80px; 
+			 top: 315px; 
+			 position: absolute; 
+			 
+			 z-index:3;
+		} 
+	
+	
+		 #Dislike 
+		{ 
+			 font-size: 0px;
+			 display: none;
+	
+			 color: rgb(150, 40, 40);
+			 left: 0px; 
+			 top: 0px; 
+			 position: relative; 
+			 width: 0px;
+			 height: 0px;
+			 z-index:4;
+		} 
+		
+	
+		#Dislikemobil 
+		{ 
+			 font-size: 30px;
+			 
+			 color: rgb(150, 40, 40);
+			 left: 300px; 
+			 top: 315px; 
+			 position: absolute; 
+			 
+			 z-index:4;
+		} 
+	
+	
+	
+		 #FonToplananProjeHakk 
+		{ 
+			 left: 409px; 
+			 top: 765px; 
+			 position: absolute; 
+			 width: 352px;
+			 height: 15px;
+			 z-index:5;
+		} 
+		
+		
+		#incelebuton
+		{ 
+			 border: none;
+			  padding: 8px 14px;
+			  text-align: center;
+			 text-decoration: none;
+			 display: inline-block;
+			 font-size: 12px;
+			left: 150px; 
+			top: 350px; 
+			position: absolute; 
+			width: 75px;
+			height: 60px;
+			z-index:6;
+		} 
+		
+		 #foto 
+		{ 
+			 left: auto; 
+			 top: -0px; 
+			 position: relative; 
+			 width: 0px;
+			 height: 0px;
+			 z-index:6;
+		} 
+		
+		#fotomobil 
+		{ 
+			 left: 120px; 
+			 top: 180px; 
+			 position: relative; 
+			 width: 140px;
+			 height: 130px;
+			 z-index:6;
+		}
+		
+		  
+		  .filterDiv {
+			display: none; /* Hidden by default */
+		  }
+		  
+		  /* The "show" class is added to the filtered elements */
+		  .show1 {
+			display: block;
+		  }
+		  
+		  /* Style the buttons */
+		  .btn1 {
+			border: none;
+			outline: none;
+			padding: 12px 16px;
+			background-color: #f1f1f1;
+			cursor: pointer;
+		  }
+		  
+		  /* Add a light grey background on mouse-over */
+		  .btn:hover {
+			background-color: #ddd;
+		  }
+		  
+		  /* Add a dark background to the active button */
+		  .btn.active1 {
+			background-color: #666;
+			color: white;
+		  }
+		  .s003 {
+			height: 150px;
+			display: -ms-flexbox;
+			display: flex;
+			-ms-flex-pack: center;
+				justify-content: center;
+			-ms-flex-align: center;
+				align-items: center;
+			font-family: 'Poppins', sans-serif;
+			background-color: #f6ff00;
+			background-size: cover;
+			background-position: center center;
+			padding: 15px;
+		  }
+		  
+		  .s003 form {
+			width: 100%;
+			max-width: 790px;
+			margin-bottom: 0;
+		  }
+		  
+		  .s003 form .inner-form {
+			background: #fff;
+			display: -ms-flexbox;
+			display: flex;
+			width: 100%;
+			-ms-flex-pack: justify;
+				justify-content: space-between;
+			-ms-flex-align: center;
+				align-items: center;
+			box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+			border-radius: 3px;
+		  }
+		  
+		  .s003 form .inner-form .input-field {
+			height: 68px;
+		  }
+		  
+		  .s003 form .inner-form .input-field input {
+			height: 100%;
+			background: transparent;
+			border: 0;
+			display: block;
+			width: 100%;
+			padding: 10px 32px;
+			font-size: 16px;
+			color: #555;
+		  }
+		  
+		  .s003 form .inner-form .input-field input.placeholder {
+			color: #888;
+			font-size: 16px;
+		  }
+		  
+		  .s003 form .inner-form .input-field input:-moz-placeholder {
+			color: #888;
+			font-size: 16px;
+		  }
+		  
+		  .s003 form .inner-form .input-field input::-webkit-input-placeholder {
+			color: #888;
+			font-size: 16px;
+		  }
+		  
+		  .s003 form .inner-form .input-field input:hover, .s003 form .inner-form .input-field input:focus {
+			box-shadow: none;
+			outline: 0;
+			border-color: #fff;
+		  }
+		  
+		  .s003 form .inner-form .input-field.first-wrap {
+			width: 200px;
+			border-right: 1px solid rgba(0, 0, 0, 0.1);
+		  }
+		  
+		  .s003 form .inner-form .input-field.first-wrap .choices__inner {
+			background: transparent;
+			border-radius: 0;
+			border: 0;
+			height: 100%;
+			color: #fff;
+			display: -ms-flexbox;
+			display: flex;
+			-ms-flex-align: center;
+				align-items: center;
+			padding: 10px 30px;
+		  }
+		  
+		  .s003 form .inner-form .input-field.first-wrap .choices__inner .choices__list.choices__list--single {
+			display: -ms-flexbox;
+			display: flex;
+			padding: 0;
+			-ms-flex-align: center;
+				align-items: center;
+			height: 100%;
+		  }
+		  
+		  .s003 form .inner-form .input-field.first-wrap .choices__inner .choices__item.choices__item--selectable.choices__placeholder {
+			display: -ms-flexbox;
+			display: flex;
+			-ms-flex-align: center;
+				align-items: center;
+			height: 100%;
+			opacity: 1;
+			color: #888;
+		  }
+		  
+		  .s003 form .inner-form .input-field.first-wrap .choices__inner .choices__list--single .choices__item {
+			display: -ms-flexbox;
+			display: flex;
+			-ms-flex-align: center;
+				align-items: center;
+			height: 100%;
+			color: #555;
+		  }
+		  
+		  .s003 form .inner-form .input-field.first-wrap .choices[data-type*="select-one"]:after {
+			right: 30px;
+			border-color: #e5e5e5 transparent transparent transparent;
+		  }
+		  
+		  .s003 form .inner-form .input-field.first-wrap .choices__list.choices__list--dropdown {
+			border: 0;
+			background: #fff;
+			padding: 20px 30px;
+			margin-top: 2px;
+			border-radius: 4px;
+			box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+		  }
+		  
+		  .s003 form .inner-form .input-field.first-wrap .choices__list.choices__list--dropdown .choices__item--selectable {
+			padding-right: 0;
+		  }
+		  
+		  .s003 form .inner-form .input-field.first-wrap .choices__list--dropdown .choices__item--selectable.is-highlighted {
+			background: #fff;
+			color: #63c76a;
+		  }
+		  
+		  .s003 form .inner-form .input-field.first-wrap .choices__list--dropdown .choices__item {
+			color: #555;
+			min-height: 24px;
+		  }
+		  
+		  .s003 form .inner-form .input-field.second-wrap {
+			-ms-flex-positive: 1;
+				flex-grow: 1;
+		  }
+		  
+		  .s003 form .inner-form .input-field.third-wrap {
+			width: 74px;
+		  }
+		  
+		  .s003 form .inner-form .input-field.third-wrap .btn-search {
+			height: 100%;
+			width: 100%;
+			white-space: nowrap;
+			color: #fff;
+			border: 0;
+			cursor: pointer;
+			background: #63c76a;
+			transition: all .2s ease-out, color .2s ease-out;
+		  }
+		  
+		  .s003 form .inner-form .input-field.third-wrap .btn-search svg {
+			width: 16px;
+		  }
+		  
+		  .s003 form .inner-form .input-field.third-wrap .btn-search:hover {
+			background: #50c058;
+		  }
+		  
+		  .s003 form .inner-form .input-field.third-wrap .btn-search:focus {
+			outline: 0;
+			box-shadow: none;
+		  }
+		  
+		}
+
+
+
+	@media (min-width: 1451px) and (max-width: 1699px) {
+		#fonlama 
+	{ 
+		 left: 150px; 
+		 top: 50px; 
+		 position: relative; 
+		 width: 650px;
+		 height: 450px;
+		 
+	} 
+	
+	
+	#fonname 
+	{
+		
+		left: 350px; 
+		  top: 00px;
+	  }
+	
+	
+	
+	#yer
+	{  
+		 position: static; 
+		 
+		 
+	} 
+	
+	
+	#hedef
+	{ 
+		 left: 260px; 
+		 top: -140px; 
+		 position: relative; 
+		 width: 185px;
+		 height: 25px;
+		 z-index:10;
+	} 
+	
+	#değer
+	{ 
+		 left: 335px; 
+		 top: 415px; 
+		 position: absolute; 
+		 width: 195px;
+		 height: 25px;
+		 z-index:11;
+	} 
+	
+	
+	
+	
+	
+	#filtre
+	{ 
+		 left: 450px; 
+		 top: 370px; 
+		 position: absolute; 
+		 width: 550px;
+		 height: 250px;
+		 z-index:11;
+	} 
+	
+	
+	
+	
+	.aw-zoom
+	{
+		position: relative;
+		-webkit-transform: scale(1);
+		-ms-transform: scale(1);
+		-moz-transform: scale(1);
+		transition: all .3s ease-in;
+		-moz-transition: all .3s ease-in;
+		-webkit-transition: all .3s ease-in;
+		-ms-transition: all .3s ease-in;
+	}
+	
+	.aw-zoom:hover
+	{
+		z-index:2;
+		-webkit-transform: scale(1.5);
+		-ms-transform: scale(1.5);  
+		-moz-transform: scale(1.5);
+		transform: scale(1.5);
+	}
+	
+	#hepsi
+	{ 
+		 left: 559px; 
+		 top: 205px; 
+		 position: relative; 
+		 width: 100px;
+		 height: 55px;
+		 z-index: 25;
+	} 
+	
+	#tekno
+	{ 
+		 left: 658px; 
+		 top: 148px; 
+		 position: relative; 
+		 width: 135px;
+		 height: 85px;
+		 z-index: 25;
+	} 
+	
+	#girisim
+	{ 
+		 left: 792px; 
+		 top: 57px; 
+		 position: relative; 
+		 width: 115px;
+		 height: 65px;
+		 z-index: 25;
+	} 
+	
+	
+	#sosyal
+	{ 
+		 left: 900px; 
+		 top: -15px; 
+		 position: relative; 
+		 width: 90px;
+		 height: 60px;
+		 z-index: 25;
+	} 
+	
+	#fonlama2  
+	{ 
+		 left: 1000px; 
+		 top: -390px; 
+		 position: relative; 
+		 width: 650px;
+		 height: 450px;
+		 
+	} 
+	
+	
+	
+	
+	 #kalıp 
+	{ 
+		 left: 0px; 
+		 top: 0px; 
+		 position: relative; 
+		 
+		 z-index:1;
+	} 
+	
+	 #FonBal 
+	{ 
+	  font-size: 25px;
+	  color: rgb(0, 0, 0);
+		 left: 270px; 
+		 top: 20px; 
+		 position: absolute; 
+		 width: 366px;
+		 height: 69px;
+		 z-index:2;
+		 width:275px; 
+		 word-wrap:break-word;
+		 
+	} 
+	
+	#detail
+	{ 
+		   font-size: 15px;
+		  color: rgb(44, 44, 44);
+		 left: 240px; 
+		 top: 290px; 
+		 position: absolute; 
+		 width:300px; 
+		 word-wrap:break-word;
+		 z-index:3;
+	} 
+	
+	
+	
+	 #Like 
+	{ 
+		   font-size: 50px;
+		  color: rgb(150, 40, 40);
+		 left: 150px; 
+		 top: 330px; 
+		 position: absolute; 
+		 
+		 z-index:3;
+	} 
+	
+	 #Dislike 
+	{ 
+		 font-size: 50px;
+		 
+		 color: rgb(150, 40, 40);
+		 left: 540px; 
+		 top: 330px; 
+		 position: absolute; 
+		 
+		 z-index:4;
+	} 
+	
+	 #FonToplananProjeHakk 
+	{ 
+		 left: 309px; 
+		 top: 365px; 
+		 position: absolute; 
+		 width: 352px;
+		 height: 15px;
+		 z-index:5;
+	} 
+	
+	
+	#incelebuton
+	{ 
+		 border: none;
+		  padding: 8px 14px;
+		  text-align: center;
+		 text-decoration: none;
+		 display: inline-block;
+		 font-size: 12px;
+		left: 150px; 
+		top: 350px; 
+		position: absolute; 
+		width: 75px;
+		height: 60px;
+		z-index:6;
+	} 
+	
+	 #foto 
+	{ 
+		 left: 275px; 
+		 top: 75px; 
+		 position: absolute; 
+		 width: 150px;
+		 height: 150px;
+		 z-index:6;
+	} 
+	
+	
+	
+	  
+	  .filterDiv {
+		display: none; /* Hidden by default */
+	  }
+	  
+	  /* The "show" class is added to the filtered elements */
+	  .show1 {
+		display: block;
+	  }
+	  
+	  /* Style the buttons */
+	  .btn1 {
+		border: none;
+		outline: none;
+		padding: 12px 16px;
+		background-color: #f1f1f1;
+		cursor: pointer;
+	  }
+	  
+	  /* Add a light grey background on mouse-over */
+	  .btn:hover {
+		background-color: #ddd;
+	  }
+	  
+	  /* Add a dark background to the active button */
+	  .btn.active1 {
+		background-color: #666;
+		color: white;
+	  }
+	
+	  .s003 {
+		height: 150px;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-pack: center;
+			justify-content: center;
+		-ms-flex-align: center;
+			align-items: center;
+		font-family: 'Poppins', sans-serif;
+		background-color: #f6ff00;
+		background-size: cover;
+		background-position: center center;
+		padding: 15px;
+	  }
+	  
+	  .s003 form {
+		width: 100%;
+		max-width: 790px;
+		margin-bottom: 0;
+	  }
+	  
+	  .s003 form .inner-form {
+		background: #fff;
+		display: -ms-flexbox;
+		display: flex;
+		width: 100%;
+		-ms-flex-pack: justify;
+			justify-content: space-between;
+		-ms-flex-align: center;
+			align-items: center;
+		box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+		border-radius: 3px;
+	  }
+	  
+	  .s003 form .inner-form .input-field {
+		height: 68px;
+	  }
+	  
+	  .s003 form .inner-form .input-field input {
+		height: 100%;
+		background: transparent;
+		border: 0;
+		display: block;
+		width: 100%;
+		padding: 10px 32px;
+		font-size: 16px;
+		color: #555;
+	  }
+	  
+	  .s003 form .inner-form .input-field input.placeholder {
+		color: #888;
+		font-size: 16px;
+	  }
+	  
+	  .s003 form .inner-form .input-field input:-moz-placeholder {
+		color: #888;
+		font-size: 16px;
+	  }
+	  
+	  .s003 form .inner-form .input-field input::-webkit-input-placeholder {
+		color: #888;
+		font-size: 16px;
+	  }
+	  
+	  .s003 form .inner-form .input-field input:hover, .s003 form .inner-form .input-field input:focus {
+		box-shadow: none;
+		outline: 0;
+		border-color: #fff;
+	  }
+	  
+	  .s003 form .inner-form .input-field.first-wrap {
+		width: 200px;
+		border-right: 1px solid rgba(0, 0, 0, 0.1);
+	  }
+	  
+	  .s003 form .inner-form .input-field.first-wrap .choices__inner {
+		background: transparent;
+		border-radius: 0;
+		border: 0;
+		height: 100%;
+		color: #fff;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-align: center;
+			align-items: center;
+		padding: 10px 30px;
+	  }
+	  
+	  .s003 form .inner-form .input-field.first-wrap .choices__inner .choices__list.choices__list--single {
+		display: -ms-flexbox;
+		display: flex;
+		padding: 0;
+		-ms-flex-align: center;
+			align-items: center;
+		height: 100%;
+	  }
+	  
+	  .s003 form .inner-form .input-field.first-wrap .choices__inner .choices__item.choices__item--selectable.choices__placeholder {
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-align: center;
+			align-items: center;
+		height: 100%;
+		opacity: 1;
+		color: #888;
+	  }
+	  
+	  .s003 form .inner-form .input-field.first-wrap .choices__inner .choices__list--single .choices__item {
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-align: center;
+			align-items: center;
+		height: 100%;
+		color: #555;
+	  }
+	  
+	  .s003 form .inner-form .input-field.first-wrap .choices[data-type*="select-one"]:after {
+		right: 30px;
+		border-color: #e5e5e5 transparent transparent transparent;
+	  }
+	  
+	  .s003 form .inner-form .input-field.first-wrap .choices__list.choices__list--dropdown {
+		border: 0;
+		background: #fff;
+		padding: 20px 30px;
+		margin-top: 2px;
+		border-radius: 4px;
+		box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+	  }
+	  
+	  .s003 form .inner-form .input-field.first-wrap .choices__list.choices__list--dropdown .choices__item--selectable {
+		padding-right: 0;
+	  }
+	  
+	  .s003 form .inner-form .input-field.first-wrap .choices__list--dropdown .choices__item--selectable.is-highlighted {
+		background: #fff;
+		color: #63c76a;
+	  }
+	  
+	  .s003 form .inner-form .input-field.first-wrap .choices__list--dropdown .choices__item {
+		color: #555;
+		min-height: 24px;
+	  }
+	  
+	  .s003 form .inner-form .input-field.second-wrap {
+		-ms-flex-positive: 1;
+			flex-grow: 1;
+	  }
+	  
+	  .s003 form .inner-form .input-field.third-wrap {
+		width: 74px;
+	  }
+	  
+	  .s003 form .inner-form .input-field.third-wrap .btn-search {
+		height: 100%;
+		width: 100%;
+		white-space: nowrap;
+		color: #fff;
+		border: 0;
+		cursor: pointer;
+		background: #63c76a;
+		transition: all .2s ease-out, color .2s ease-out;
+	  }
+	  
+	  .s003 form .inner-form .input-field.third-wrap .btn-search svg {
+		width: 16px;
+	  }
+	  
+	  .s003 form .inner-form .input-field.third-wrap .btn-search:hover {
+		background: #50c058;
+	  }
+	  
+	  .s003 form .inner-form .input-field.third-wrap .btn-search:focus {
+		outline: 0;
+		box-shadow: none;
+	  }
+	  
+
+}

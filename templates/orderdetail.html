@@ -1,0 +1,19 @@
+{{order.name}}
+{{order.surname}}
+{{order.address}}
+{{order.city}}
+{{order.phone}}
+{{order.create_at}}
+{{order.note}}
+{{order.status}}
+
+
+{% for rs in items  %}
+
+
+{{rs.product.name}}
+{{rs.price}}
+{{rs.quantity}}
+{{rs.total}}
+
+{% endfor %}

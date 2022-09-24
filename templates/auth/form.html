@@ -1,0 +1,187 @@
+{% load static %}
+{% load crispy_forms_tags %}
+{% block body %}
+{% load static %}
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+
+<!DOCTYPE html><html class=''>
+<link rel="stylesheet" media="screen, projection" href="{% static 'css/kayit.css' %}">
+
+
+
+<body>
+        <!-- LOGIN MODULE -->
+        <div class="login">
+            <div class="wrap">
+                <!-- TOGGLE -->
+                <div id="toggle-wrap">
+                    <div id="toggle-terms">
+                        <div id="cross">
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- TERMS -->
+               
+                <!-- RECOVERY -->
+                <div class="recovery">
+                    <h2>Password Recovery</h2>
+                    <p>Enter either the <strong>email address</strong> or <strong>username</strong> on the account and <strong>click Submit</strong></p>
+                    <p>We'll email instructions on how to reset your password.</p>
+                    <form class="recovery-form" action="" method="post">
+                        <input type="text" class="input" id="user_recover" placeholder="Kullanıcı Adınızı Veya E-Postanızı Giriniz">
+                        <input type="submit" class="button" value="Submit">
+                    </form>
+                    <p class="mssg">An email has been sent to you with further instructions.</p>
+                </div>
+<div id="girisfoto">
+                <!-- SLIDER -->
+                <div class="content">
+                    <!-- LOGO -->
+                    
+                        <a href="/"><img src="{% static 'image/reg/logo.png' %}"    alt=""></a>
+                    
+                    <!-- SLIDESHOW -->
+                   
+                </div>                </div>
+
+                <!-- LOGIN FORM -->
+                <div id="giris">
+                <div class="user">
+                    
+                    <div class="form-wrap">
+                        <!-- TABS -->
+                        
+                        <div class="tabs">
+                            <h3 ><a class="" href=""><span>{{title}}<span></a></h3>
+                            <br>
+                            <br>
+                            <br>
+
+                            
+                            
+                            
+                        <!-- TABS CONTENT -->
+                        <div class="tabs-content">
+                            <!-- TABS CONTENT LOGIN -->
+                           
+                            <div id="login-tab-content" class="active">
+                                <form method="POST" enctype="multipart/form-data">
+                                 {% csrf_token %}
+                                    {{ form|crispy }}
+                    <input class="btn btn-primary" type="submit" value="{{ title }}">
+                    
+                </form>
+                                
+                            </div>
+                                                        </div>
+
+<script src='//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script><script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script >/* LOGIN - MAIN.JS - dp 2017 */
+
+// LOGIN TABS
+$(function() {
+    var tab = $('.tabs h3 a');
+    tab.on('click', function(event) {
+        event.preventDefault();
+        tab.removeClass('active');
+        $(this).addClass('active');
+        tab_content = $(this).attr('href');
+        $('div[id$="tab-content"]').removeClass('active');
+        $(tab_content).addClass('active');
+    });
+});
+
+// SLIDESHOW
+$(function() {
+    $('#slideshow > div:gt(0)').hide();
+    setInterval(function() {
+        $('#slideshow > div:first')
+        .fadeOut(1000)
+        .next()
+        .fadeIn(1000)
+        .end()
+        .appendTo('#slideshow');
+    }, 3850);
+});
+
+// CUSTOM JQUERY FUNCTION FOR SWAPPING CLASSES
+(function($) {
+    'use strict';
+    $.fn.swapClass = function(remove, add) {
+        this.removeClass(remove).addClass(add);
+        return this;
+    };
+}(jQuery));
+
+// SHOW/HIDE PANEL ROUTINE (needs better methods)
+// I'll optimize when time permits.
+$(function() {
+    $('.agree,.forgot, #toggle-terms, .log-in, .sign-up').on('click', function(event) {
+        event.preventDefault();
+        var terms = $('.terms'),
+        recovery = $('.recovery'),
+        close = $('#toggle-terms'),
+        arrow = $('.tabs-content .fa');
+        if ($(this).hasClass('agree') || $(this).hasClass('log-in') || ($(this).is('#toggle-terms')) && terms.hasClass('open')) {
+            if (terms.hasClass('open')) {
+                terms.swapClass('open', 'closed');
+                close.swapClass('open', 'closed');
+                arrow.swapClass('active', 'inactive');
+            } else {
+                if ($(this).hasClass('log-in')) {
+                    return;
+                }
+                terms.swapClass('closed', 'open').scrollTop(0);
+                close.swapClass('closed', 'open');
+                arrow.swapClass('inactive', 'active');
+            }
+        }
+        else if ($(this).hasClass('forgot') || $(this).hasClass('sign-up') || $(this).is('#toggle-terms')) {
+            if (recovery.hasClass('open')) {
+                recovery.swapClass('open', 'closed');
+                close.swapClass('open', 'closed');
+                arrow.swapClass('active', 'inactive');
+            } else {
+                if ($(this).hasClass('sign-up')) {
+                    return;
+                }
+                recovery.swapClass('closed', 'open');
+                close.swapClass('closed', 'open');
+                arrow.swapClass('inactive', 'active');
+            }
+        }
+    });
+});
+
+// DISPLAY MSSG
+$(function() {
+    $('.recovery .button').on('click', function(event) {
+        event.preventDefault();
+        $('.recovery .mssg').addClass('animate');
+        setTimeout(function() {
+            $('.recovery').swapClass('open', 'closed');
+            $('#toggle-terms').swapClass('open', 'closed');
+            $('.tabs-content .fa').swapClass('active', 'inactive');
+            $('.recovery .mssg').removeClass('animate');
+        }, 2500);
+    });
+});
+
+// DISABLE SUBMIT FOR DEMO
+$(function() {
+    $('.button').on('click', function(event) {
+        $(this).stop();
+        event.preventDefault();
+        return false;
+    });
+});
+//# sourceURL=pen.js
+</script>
+</body></html>
+{% endblock %}
