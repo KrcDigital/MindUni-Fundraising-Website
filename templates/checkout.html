@@ -1,0 +1,866 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block body %}
+{% block title %}
+<title>Sepetim</title>
+{% endblock title %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{% load django_template_maths %}
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Little Closet template">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="{% static 'product/styles/bootstrap-4.1.2/bootstrap.min.css' %}">
+<link href="{% static 'product/plugins/font-awesome-4.7.0/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="{% static 'product/styles/cart.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'product/styles/cart_responsive.css' %}">
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body id="body1">
+
+
+
+
+
+<div id="mblcheck">
+<div class="row">
+        <div class="col-md-4 order-md-2 mb-4">
+          <h4 class="d-flex justify-content-between align-items-center mb-3">
+            <span class="text-muted"><h3>Ürünleriniz</h3></span>
+            <span class="badge badge-secondary badge-pill"></span>
+          </h4>
+          <ul class="list-group mb-3">
+		  {% for rs in shopcart  %}
+
+            <li class="list-group-item d-flex justify-content-between lh-condensed">
+              <div>
+                <h6 class="my-0">{{rs.product.title}}</h6>
+                <small class="text-muted">Özelleştirme Yok</small>
+              </div>
+              <span class="text-muted">{{rs.product.kuponprice}} Puan</span>
+            </li>
+			{% endfor %}
+           
+            <li class="list-group-item d-flex justify-content-between bg-light">
+              <div class="text-success">
+                <h6 class="my-0">Kargo Bedava</h6>
+                <small>Tüm Siparişlerde Kargo Bedava</small>
+              </div>
+              <span class="text-success"></span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between">
+              <span>Toplam (Puan)</span>
+              <strong>{{carttotal}}</strong>
+            </li>
+			*Bakiyeniz Yetersizse Siparişiniz Hata Verecektir.
+          </ul>
+
+          
+        </div>
+        
+
+</div>
+            </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+<div id="mblwrap">		
+<div class="wrap-login200">
+				<div class="login200-form-title" >
+
+								<div id="adrestext" class="cart_extra_title">Adres Bilgileriniz</div>
+	<div id="adresform">							
+		<form id="checkout-form" name="order" class="clearfix" method="post">
+        {% csrf_token %}
+
+        <div class="form-group">
+		
+            <input class="input" type="text" name="name" placeholder="Adınız" required id="id_name">
+        </div>    
+        <div class="form-group">
+            <input class="input" type="text" name="surname" placeholder="Soyadınız" required id="id_surname">
+        </div>    
+		
+        <div class="form-group">
+            <input class="input" type="text" name="address" placeholder="Adresiniz" required id="id_address">
+        </div>    
+        <div class="form-group">
+		<div >
+            <label for="id_city"></label>
+			<select id="şehir" name="city" class="input" id="id_city">
+				<option  value="İl">İL</option>
+				
+				<option value="Adana">Adana</option>
+				<option value="Adıyaman">Adıyaman</option>
+				<option value="Afyonkarahisar">Afyonkarahisar</option>
+				<option value="Ağrı">Ağrı</option>
+				<option value="Aksaray">Aksaray</option>
+				<option value="Amasya">Amasya</option>
+				<option value="Ankara">Ankara</option>
+				<option value="Antalya">Antalya</option>
+				<option value="Ardahan">Ardahan</option>
+				<option value="Artvin">Artvin</option>
+				<option value="Aydın">Aydın</option>
+				<option value="Balıkesir">Balıkesir</option>
+				<option value="Bartın">Bartın</option>
+				<option value="Batman">Batman</option>
+				<option value="Bayburt">Bayburt</option>
+				<option value="Bilecik">Bilecik</option>
+				<option value="Bingöl">Bingöl</option>
+				<option value="Bitlis">Bitlis</option>
+				<option value="Bolu">Bolu</option>
+				<option value="Burdur">Burdur</option>
+				<option value="Bursa">Bursa</option>
+				<option value="Çanakkale">Çanakkale</option>
+				<option value="Çankırı">Çankırı</option>
+				<option value="Çorum">Çorum</option>
+				<option value="Denizli">Denizli</option>
+				<option value="Diyarbakır">Diyarbakır</option>
+				<option value="Düzce">Düzce</option>
+				<option value="Edirne">Edirne</option>
+				<option value="Elazığ">Elazığ</option>
+				<option value="Erzincan">Erzincan</option>
+				<option value="Erzurum">Erzurum</option>
+				<option value="Eskişehir">Eskişehir</option>
+				<option value="Gaziantep">Gaziantep</option>
+				<option value="Giresun">Giresun</option>
+				<option value="Gümüşhane">Gümüşhane</option>
+				<option value="Hakkâri">Hakkâri</option>
+				<option value="Hatay">Hatay</option>
+				<option value="Iğdır">Iğdır</option>
+				<option value="Isparta">Isparta</option>
+				<option value="İstanbul">İstanbul</option>
+				<option value="İzmir">İzmir</option>
+				<option value="Kahramanmaraş">Kahramanmaraş</option>
+				<option value="Karabük">Karabük</option>
+				<option value="Karaman">Karaman</option>
+				<option value="Kars">Kars</option>
+				<option value="Kastamonu">Kastamonu</option>
+				<option value="Kayseri">Kayseri</option>
+				<option value="Kilis">Kilis</option>
+				<option value="Kırıkkale">Kırıkkale</option>
+				<option value="Kırklareli">Kırklareli</option>
+				<option value="Kırşehir">Kırşehir</option>
+				<option value="Kocaeli">Kocaeli</option>
+				<option value="Konya">Konya</option>
+				<option value="Kütahya">Kütahya</option>
+				<option value="Malatya">Malatya</option>
+				<option value="Manisa">Manisa</option>
+				<option value="Mardin">Mardin</option>
+				<option value="Mersin">Mersin</option>
+				<option value="Muğla">Muğla</option>
+				<option value="Muş">Muş</option>
+				<option value="Nevşehir">Nevşehir</option>
+				<option value="Niğde">Niğde</option>
+				<option value="Ordu">Ordu</option>
+				<option value="Osmaniye">Osmaniye</option>
+				<option value="Rize">Rize</option>
+				<option value="Sakarya">Sakarya</option>
+				<option value="Samsun">Samsun</option>
+				<option value="Şanlıurfa">Şanlıurfa</option>
+				<option value="Siirt">Siirt</option>
+				<option value="Sinop">Sinop</option>
+				<option value="Sivas">Sivas</option>
+				<option value="Şırnak">Şırnak</option>
+				<option value="Tekirdağ">Tekirdağ</option>
+				<option value="Tokat">Tokat</option>
+				<option value="Trabzon">Trabzon</option>
+				<option value="Tunceli">Tunceli</option>
+				<option value="Uşak">Uşak</option>
+				<option value="Van">Van</option>
+				<option value="Yalova">Yalova</option>
+				<option value="Yozgat">Yozgat</option>
+				<option value="Zonguldak">Zonguldak</option>
+				
+				
+			</select>
+        </div>    
+        <div class="form-group">
+            <input class="input" type="tel" name="phone" placeholder="Telefon Numaranız" required id="id_phone">
+        </div>    
+       <div class="pull-right">
+		<button  type="submit" id="tb"class="tamamlabtn">Tamamla</button>
+        </div>
+       </div>
+	</div>    
+</form>
+
+
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="pccarty">
+
+<div class="wrap-login100">
+				<div class="login100-form-title" >
+					<!-- Cart -->
+		<div class="cart_section">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="cart_container">
+							
+							<div id="sepetim"> Sipariş Detayı</div>
+
+							<!-- Cart Items -->
+<div id="ürünyeri">
+
+{% for rs in shopcart  %}
+							<div class="cart_items">
+								<ul class="cart_items_list">
+
+									<!-- Cart Item -->
+                                    
+                                    
+									<li class="cart_item item_list d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-end justify-content-start">
+										<div class="product d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-start mr-auto">
+											
+											<div><div class="product_image"><img src="{{rs.product.image.url}}" alt=""></div></div>
+											<div class="product_name_container">
+												<div  class="product_name"><a href="product.html">{{rs.product}}</a></div>
+                                              
+												
+                                                <div class="product_text">Satıcı=>MindUni{{rs.seller}}</div>
+													<td><a href="/order/deletefromcart/{{rs.id}}">Ürünü Sil </a></td>
+
+
+                                            </div>
+										</div>
+										
+										
+										<div id="fiyat" class="product_price product_text"><span>Puan: </span>{{rs.product.kuponprice}} Puan</div>
+										<div class="product_quantity_container">
+											<div id="adet" class="product_quantity ml-lg-auto mr-lg-auto text-center">
+												<span>{{rs.quantity}}</span>
+												
+											</div>
+										</div>
+										</li>
+								</ul>
+								
+								</div>
+{% endfor %}
+</div>		
+
+					</span>
+				</div>
+
+			
+					
+			</div>
+
+		
+							
+				<div class="row cart_extra_row">
+					<div class="col-lg-6">
+						<div class="cart_extra cart_extra_1">
+							<div class="cart_extra_content cart_extra_coupon">
+								<div id="kp" class="cart_extra_title">Kupon</div>
+								<div class="coupon_form_container">
+									<form action="#" id="coupon_form" class="coupon_form">
+										<input id="kgir" type="text" class="coupon_input" required="required">
+										<button id="Kullan"class="coupon_button">Kullan</button>
+									</form>
+								</div>
+								<div id="vgir"class="coupon_text">Kuponunuz varsa giriniz.</div>
+								<div class="shipping">
+									<div id="kyönt"class="cart_extra_title">Kargo Yöntemi</div>
+									<ul>
+										<li class="shipping_option d-flex flex-row align-items-center justify-content-start">
+											<label class="radio_container">
+												<input type="radio" id="radio_1" name="shipping_radio" class="shipping_radio" checked>
+												<span class="radio_mark"></span>
+												<span id="bk" class="radio_text">Bedava Kargo</span>
+											</label>
+											<div id="bk"class="shipping_price ml-auto">Bedava</div>
+										</li>
+										
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-lg-6 cart_extra_col">
+						<div class="cart_extra cart_extra_2">
+							<div class="cart_extra_content cart_extra_total">
+							
+								<div id="sb" class="cart_extra_title">Sepet Bilgisi</div>
+								<div id="sepet">
+								<ul class="cart_extra_total_list">
+									<li class="d-flex flex-row align-items-center justify-content-start">
+										<div class="cart_extra_total_title">Tutar</div>
+                                        
+
+										<div class="cart_extra_total_value ml-auto">{{carttotal}}</div>
+                                        
+									</li>
+									<li class="d-flex flex-row align-items-center justify-content-start">
+										<div class="cart_extra_total_title">Kargo</div>
+										<div class="cart_extra_total_value ml-auto">Bedava</div>
+									</li>
+									<li class="d-flex flex-row align-items-center justify-content-start">
+										<div class="cart_extra_total_title">Toplam</div>
+										<div class="cart_extra_total_value ml-auto">{{carttotal}}</div>
+									</li>
+								</ul>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		
+	</div>
+	</div>	
+</div>
+
+
+
+<div id="cb">
+<img  src="{% static 'image/shop/coin.png' %}" alt="coin" height="200" width="200">
+</div>
+
+<div class="wrap-login200">
+				<div class="login200-form-title" >
+
+								<div id="adrestext" class="cart_extra_title">Adres Bilgileriniz</div>
+	<div id="adresform">							
+		<form id="checkout-form" name="order" class="clearfix" method="post">
+        {% csrf_token %}
+
+        <div class="form-group">
+		
+            <input class="input" type="text" name="name" placeholder="Adınız" required id="id_name">
+        </div>    
+        <div class="form-group">
+            <input class="input" type="text" name="surname" placeholder="Soyadınız" required id="id_surname">
+        </div>    
+		
+        <div class="form-group">
+            <input class="input" type="text" name="address" placeholder="Adresiniz" required id="id_address">
+        </div>    
+        <div class="form-group">
+		<div >
+            <label for="id_city"></label>
+			<select id="şehir" name="city" class="input" id="id_city">
+				<option  value="İl">İL</option>
+				
+				<option value="Adana">Adana</option>
+				<option value="Adıyaman">Adıyaman</option>
+				<option value="Afyonkarahisar">Afyonkarahisar</option>
+				<option value="Ağrı">Ağrı</option>
+				<option value="Aksaray">Aksaray</option>
+				<option value="Amasya">Amasya</option>
+				<option value="Ankara">Ankara</option>
+				<option value="Antalya">Antalya</option>
+				<option value="Ardahan">Ardahan</option>
+				<option value="Artvin">Artvin</option>
+				<option value="Aydın">Aydın</option>
+				<option value="Balıkesir">Balıkesir</option>
+				<option value="Bartın">Bartın</option>
+				<option value="Batman">Batman</option>
+				<option value="Bayburt">Bayburt</option>
+				<option value="Bilecik">Bilecik</option>
+				<option value="Bingöl">Bingöl</option>
+				<option value="Bitlis">Bitlis</option>
+				<option value="Bolu">Bolu</option>
+				<option value="Burdur">Burdur</option>
+				<option value="Bursa">Bursa</option>
+				<option value="Çanakkale">Çanakkale</option>
+				<option value="Çankırı">Çankırı</option>
+				<option value="Çorum">Çorum</option>
+				<option value="Denizli">Denizli</option>
+				<option value="Diyarbakır">Diyarbakır</option>
+				<option value="Düzce">Düzce</option>
+				<option value="Edirne">Edirne</option>
+				<option value="Elazığ">Elazığ</option>
+				<option value="Erzincan">Erzincan</option>
+				<option value="Erzurum">Erzurum</option>
+				<option value="Eskişehir">Eskişehir</option>
+				<option value="Gaziantep">Gaziantep</option>
+				<option value="Giresun">Giresun</option>
+				<option value="Gümüşhane">Gümüşhane</option>
+				<option value="Hakkâri">Hakkâri</option>
+				<option value="Hatay">Hatay</option>
+				<option value="Iğdır">Iğdır</option>
+				<option value="Isparta">Isparta</option>
+				<option value="İstanbul">İstanbul</option>
+				<option value="İzmir">İzmir</option>
+				<option value="Kahramanmaraş">Kahramanmaraş</option>
+				<option value="Karabük">Karabük</option>
+				<option value="Karaman">Karaman</option>
+				<option value="Kars">Kars</option>
+				<option value="Kastamonu">Kastamonu</option>
+				<option value="Kayseri">Kayseri</option>
+				<option value="Kilis">Kilis</option>
+				<option value="Kırıkkale">Kırıkkale</option>
+				<option value="Kırklareli">Kırklareli</option>
+				<option value="Kırşehir">Kırşehir</option>
+				<option value="Kocaeli">Kocaeli</option>
+				<option value="Konya">Konya</option>
+				<option value="Kütahya">Kütahya</option>
+				<option value="Malatya">Malatya</option>
+				<option value="Manisa">Manisa</option>
+				<option value="Mardin">Mardin</option>
+				<option value="Mersin">Mersin</option>
+				<option value="Muğla">Muğla</option>
+				<option value="Muş">Muş</option>
+				<option value="Nevşehir">Nevşehir</option>
+				<option value="Niğde">Niğde</option>
+				<option value="Ordu">Ordu</option>
+				<option value="Osmaniye">Osmaniye</option>
+				<option value="Rize">Rize</option>
+				<option value="Sakarya">Sakarya</option>
+				<option value="Samsun">Samsun</option>
+				<option value="Şanlıurfa">Şanlıurfa</option>
+				<option value="Siirt">Siirt</option>
+				<option value="Sinop">Sinop</option>
+				<option value="Sivas">Sivas</option>
+				<option value="Şırnak">Şırnak</option>
+				<option value="Tekirdağ">Tekirdağ</option>
+				<option value="Tokat">Tokat</option>
+				<option value="Trabzon">Trabzon</option>
+				<option value="Tunceli">Tunceli</option>
+				<option value="Uşak">Uşak</option>
+				<option value="Van">Van</option>
+				<option value="Yalova">Yalova</option>
+				<option value="Yozgat">Yozgat</option>
+				<option value="Zonguldak">Zonguldak</option>
+				
+				
+			</select>
+        </div>    
+        <div class="form-group">
+            <input class="input" type="tel" name="phone" placeholder="Telefon Numaranız" required id="id_phone">
+        </div>    
+       <div class="pull-right">
+		<button  type="submit" id="tb"class="tamamlabtn">Tamamla</button>
+        </div>
+       </div>
+	</div>    
+</form>
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+<div class="wrap-login300">
+				<div class="login300-form-title" >
+
+								<div id="adrestext" class="cart_extra_title">Ödeme Bilgileriniz</div>
+	<div id="ödemeform">					
+
+<div id="hesap">
+Bakiyeniz: {{ user.userprofile.get_bio }}<br>
+Sipariş Tutarınız: {{carttotal}} <br>
+----------------------
+Sipariş Sonrası Bakiye: {{ user.userprofile.get_bio|sub:carttotal }}</div>
+
+<br>
+<div id="hata">
+*Bakiyeniz Yetersizse Siparişiniz Hata Verecektir..</div>
+		
+       </div>
+	</div>    
+	   
+
+</div>
+</div>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="{% static 'product/js/jquery-3.2.1.min.js' %}"></script>
+<script src="{% static 'product/styles/bootstrap-4.1.2/popper.js' %}"></script>
+<script src="{% static 'product/styles/bootstrap-4.1.2/bootstrap.min.js' %}"></script>
+<script src="{% static 'product/plugins/greensock/TweenMax.min.js' %}"></script>
+<script src="{% static 'product/plugins/greensock/TimelineMax.min.js' %}"></script>
+<script src="{% static 'product/plugins/scrollmagic/ScrollMagic.min.js' %}"></script>
+<script src="{% static 'product/plugins/greensock/animation.gsap.min.js' %}"></script>
+<script src="{% static 'product/plugins/greensock/ScrollToPlugin.min.js' %}"></script>
+<script src="{% static 'product/plugins/easing/easing.js' %}"></script>
+<script src="{% static 'product/plugins/parallax-js-master/parallax.min.js' %}"></script>
+<script src="{% static 'product/js/cart.js' %}"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="{% static 'cart/vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="{% static 'cart/vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="{% static 'cart/vendor/bootstrap/js/popper.js"></script>
+	<script src="{% static 'cart/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="{% static 'cart/vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="{% static 'cart/vendor/daterangepicker/moment.min.js"></script>
+	<script src="{% static 'cart/vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="{% static 'cart/vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="{% static 'cart/js/main.js"></script>
+<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'cart/vendor/bootstrap/css/bootstrap.min.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'cart/fonts/font-awesome-4.7.0/css/font-awesome.min.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'cart/fonts/Linearicons-Free-v1.0.0/icon-font.min.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'cart/vendor/animate/animate.css' %}">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="{% static 'cart/vendor/css-hamburgers/hamburgers.min.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'cart/vendor/animsition/css/animsition.min.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'cart/vendor/select2/select2.min.css' %}">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="{% static 'cart/vendor/daterangepicker/daterangepicker.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'cart/css/util.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'cart/css/main.css' %}">
+<!--=============================================================-->
+<br>
+<br><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!-- s-extra
+    ================================================== -->
+<div id="son">
+<center>    
+    <section class="s-extra">
+
+        <div class="row">
+
+            <div class="col-seven md-six tab-full popular">
+                <h3>Popüler Haberler</h3>
+
+                <div class="block-1-2 block-m-full popular__posts">
+                    <article class="col-block popular__post">
+                        <a href="#0" class="popular__thumb">
+                            <img src="/static/pi/images/thumbs/small/tulips-150.jpg" alt="">
+                        </a>
+                        <h5>Popüler Haber 1.</h5>
+                        <section class="popular__meta">
+                            <span class="popular__author"><span></span> <a href="#0">MindUni</a></span>
+                            <span class="popular__date"><span></span> <time datetime="2018-06-14">Temmuz 14, 2018</time></span>
+                        </section>
+                    </article>
+                    <article class="col-block popular__post">
+                        <a href="#0" class="popular__thumb">
+                            <img src="/static/pi/images/thumbs/small/wheel-150.jpg" alt="">
+                        </a>
+                        <h5><a href="#0">Popüler Haber 2.</a></h5>
+                        <section class="popular__meta">
+                           <span class="popular__author"><span></span> <a href="#0">MindUni</a></span>
+                            <span class="popular__date"><span></span> <time datetime="2018-06-14">Temmuz 14, 2018</time></span>
+                        </section>
+                    </article>
+                    
+                </div> <!-- end popular_posts -->
+            </div> <!-- end popular -->
+
+            <div class="col-four md-six tab-full end">
+                <div class="row">
+                    <div class="col-six md-six mob-full categories">
+                        <h3>Kategoriler</h3>
+        
+                        <ul class="linklist">
+                            <li><a href="#0">Teknoloji</a></li>
+                            <li><a href="#0">Girişim</a></li>
+                            <li><a href="#0">Sosyal Yardım</a></li>
+                            
+                           
+                        </ul>
+                    </div> <!-- end categories -->
+        
+                    <div class="col-six md-six mob-full sitelinks">
+                        <h3>Site Bağlantıları</h3>
+        
+                        <ul class="linklist">
+                            <li><a href="/">Ana Sayfa</a></li>
+                            <li><a href="/auths/profile/">Projeler</a></li>
+                            <li><a href="#0">Fikirler</a></li>
+                            <li><a href="#0">Bağış Sayfası</a></li>
+                            <li><a href="#0">Mağaza</a></li>
+                            <li><a href="#0">İletişim</a></li>
+                            <li><a href="#0">Okullar/Takımlar</a></li>
+                        </ul>
+                    </div> <!-- end sitelinks -->
+                </div>
+            </div>
+        </div> <!-- end row -->
+    
+    
+    </section> <!-- end s-extra -->
+
+</center>    
+
+
+
+
+
+
+<div id="bodyalt">   
+    <footer class="s-footer">
+
+        <div class="s-footer__main">
+            <div class="row">
+                
+                
+
+                <div class="col-six tab-full s-footer__subscribe">
+                        
+                    <h4>Yeni Proje Ve Fikirlerden Haberdar Olun </h4>
+
+                    <p>E-Mail Üzerinden Yeni Proje Ve Fikirlerden Haberdar Olmak İsterseniz Aşağıdaki Formu Doldurabilirsiniz</p>
+                    <small>*İstediğiniz zaman aboneliğinizi iptal edebilirsiniz.</small>
+
+                    <div class="subscribe-form">
+                        <form id="mc-form" class="group" novalidate="true">
+
+                            <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Addresi" required="">
+                
+                            <input type="submit" name="subscribe" value="Abone Ol">
+                
+                            <label for="mc-email" class="subscribe-message"></label>
+                
+                        </form>
+                    </div>
+
+                </div> <!-- end s-footer__subscribe -->
+
+            </div>
+        </div> <!-- end s-footer__main -->
+</body>
+        <div  class="s-footer__bottom">
+        
+            <div class="row">
+
+                <div class="col-six">
+                    <ul class="footer-social">
+                       
+                        <li>
+                            <a href="#0"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#0"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="#0"><i class="fab fa-youtube"></i></a>
+                        </li>
+                        
+                    </ul>
+                </div>
+
+                <div class="col-six">
+                    <div class="s-footer__copyright">
+                        <span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> MindUni Bir KRC Projesidir <i class="fa fa-heart" aria-hidden="true"></i>  <a href="https://colorlib.com" target="_blank"></a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+</span>
+                    </div>
+                </div>
+                
+            </div>
+        </div> <!-- end s-footer__bottom -->
+
+
+{% endblock body %}

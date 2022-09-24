@@ -1,0 +1,377 @@
+{% extends "base.html" %}
+
+{% block title %}
+
+<title>Projeler | MindUni</title>
+{% endblock title %}
+
+
+
+     {% block body %}
+    <link href="/static/js//bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+<script src="/static/js//bootstrap.min.js"></script>
+<script src="/static/js/jquery-3.2.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+ 
+
+      
+        
+
+
+
+            
+
+            
+        </div>
+    </div>
+</section>
+
+
+
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="/static/pi/css/base.css">
+    <link rel="stylesheet" href="/static/pi/css/vendor.css">
+    <link rel="stylesheet" href="/static/pi/css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="/static/pi/js/modernizr.js"></script>
+
+
+
+    
+
+       
+        
+
+
+    <!-- featured 
+    ================================================== -->
+    <section class="s-featured">
+    <br>
+<br>
+
+<div id="createpro">
+<a href="create">
+                                   <img src="/static/image/proje/createpro.png" alt="">
+                                   </a>
+</div>
+        <div class="row">
+            <div class="col-full">
+<br>
+<br>
+                <div class="featured-slider featured" data-aos="zoom-in">
+
+                    <div class="featured__slide">
+                        <div class="entry">
+
+                            <div class="entry__background" style="background-image:url('https://media.giphy.com/media/IvXb3JQTRBMTC/giphy.gif');"></div>
+                            
+                            <div class="entry__content">
+                                <span class="entry__category"><a href="#0">Teknoloji</a></span>
+
+                                <h1><a href="#0" title="">MindUni Popiler Proje 1</a></h1>
+
+                                <div class="entry__info">
+                                    <a href="#0" class="entry__profile-pic">
+                                        <img class="avatar" src="/static/pi/images/avatars/krcb.png" alt="">
+                                    </a>
+                                    <ul class="entry__meta">
+                                        <li><a href="#0">Can Kıraç</a></li>
+                                        <li>Nisan 17, 2020</li>
+                                    </ul>
+                                </div>
+                            </div> <!-- end entry__content -->
+                            
+                        </div> <!-- end entry -->
+                    </div> <!-- end featured__slide -->
+
+                    <div class="featured__slide">
+
+                        <div class="entry">
+
+                            <div class="entry__background" style="background-image:url('/static/pi/images/thumbs/featured/featured-watch.jpg');"></div>
+                            
+                            <div class="entry__content">
+                                <span class="entry__category"><a href="#0">Girişim</a></span>
+
+                                <h1><a href="#0" title="">MindUni Popiler Proje 2</a></h1>
+
+                                <div class="entry__info">
+                                    <a href="#0" class="entry__profile-pic">
+                                        <img class="avatar" src="/static/pi/images/avatars/krcb.png" alt="">
+                                    </a>
+
+                                    <ul class="entry__meta">
+                                        <li><a href="#0">Can Kıraç</a></li>
+                                        <li>Haziran 1, 2020</li>
+                                    </ul>
+                                </div>
+                            </div> <!-- end entry__content -->
+                            
+                        </div> <!-- end entry -->
+
+                    </div>
+                    <div class="featured__slide">
+
+                        <div class="entry">
+
+                            <div class="entry__background" style="background-image:url('/static/pi/images/thumbs/featured/featured-beetle.jpg');"></div>
+
+                            <div class="entry__content">
+                                <span class="entry__category"><a href="#0">Teknoloji</a></span>
+
+                                <h1><a href="#0" title="">MindUni Popiler Proje 3</a></h1>
+
+                                <div class="entry__info">
+                                    <a href="#0" class="entry__profile-pic">
+                                        <img class="avatar" src="/static/pi/images/avatars/krcb.png" alt="">
+                                    </a>
+
+                                    <ul class="entry__meta">
+                                        <li><a href="#0">Can Kıraç</a></li>
+                                        <li>Nisan 17, 2021</li>
+                                    </ul>
+                                </div>
+                            </div> <!-- end entry__content -->
+
+                        </div> <!-- end entry -->
+
+                    </div> <!-- end featured__slide -->
+                    
+                </div> <!-- end featured -->
+
+            </div> <!-- end col-full -->
+        </div>
+    </section> <!-- end s-featured -->
+
+ <!-- filtre -->
+ 
+                      <div id="filter"  align="center">
+                      <br>
+            <button class="btn btn-danger filter-button" data-filter="all">Hepsi</button>
+            <button class="btn btn-danger filter-button" data-filter="Teknoloji">Teknoloji</button>
+            <button class="btn btn-danger filter-button" data-filter="sprinkle">Bilgisayar</button>
+            <button class="btn btn-danger filter-button" data-filter="spray">Sosyal</button>
+            <button class="btn btn-danger filter-button" data-filter="irrigation">Yardımlaşma</button>
+        </div>
+
+    <!-- s-content
+    ================================================== -->
+
+<div id="filter" >   
+    <section class="s-content">
+        
+        <div class="row entries-wrap wide  filter hdpe">
+            <div class="entries">
+ {% for post in posts %}
+                <article class="col-block">
+                    
+                    <div class="item-entry" data-aos="zoom-in">
+                        <div class="item-entry__thumb">
+                            <a href="{{post.get_absolute_url}}" class="item-entry__thumb-link">
+                             {% if post.image %}
+                                <img src="{{ post.image.url }}" 
+                                     srcset="{{ post.image.url }} 1x, {{ post.image.url }} 2x" alt="">
+                            </a>
+                        </div>
+                             {% endif %}
+        
+                        <div class="item-entry__text">    
+                            <div class="item-entry__cat">
+                                <a href="category.html">Teknoloji</a> 
+                            </div>
+    
+                            <h1 class="item-entry__title"><a href="{{post.get_absolute_url}}">{{post.title}}.</a></h1>
+                                
+                            <div class="item-entry__date">
+                                <a href="{{post.get_absolute_url}}"> {{post.date|timesince}} önce</a>
+                            </div>
+                        </div>
+                    </div> <!-- item-entry -->
+
+                </article> <!-- end article -->
+ {% endfor %}
+               <br>
+               <br>
+        
+    </section> <!-- end s-content -->
+</div>
+
+<center>    
+    <section class="s-extra">
+
+        <div class="row">
+
+            <div class="col-seven md-six tab-full popular">
+                <h3>Popüler Haberler</h3>
+
+                <div class="block-1-2 block-m-full popular__posts">
+                    <article class="col-block popular__post">
+                        <a href="#0" class="popular__thumb">
+                            <img src="/static/pi/images/thumbs/small/tulips-150.jpg" alt="">
+                        </a>
+                        <h5>Popüler Haber 1.</h5>
+                        <section class="popular__meta">
+                            <span class="popular__author"><span></span> <a href="#0">MindUni</a></span>
+                            <span class="popular__date"><span></span> <time datetime="2018-06-14">Temmuz 14, 2018</time></span>
+                        </section>
+                    </article>
+                    <article class="col-block popular__post">
+                        <a href="#0" class="popular__thumb">
+                            <img src="/static/pi/images/thumbs/small/wheel-150.jpg" alt="">
+                        </a>
+                        <h5><a href="#0">Popüler Haber 2.</a></h5>
+                        <section class="popular__meta">
+                           <span class="popular__author"><span></span> <a href="#0">MindUni</a></span>
+                            <span class="popular__date"><span></span> <time datetime="2018-06-14">Temmuz 14, 2018</time></span>
+                        </section>
+                    </article>
+                    
+                </div> <!-- end popular_posts -->
+            </div> <!-- end popular -->
+
+            <div class="col-four md-six tab-full end">
+                <div class="row">
+                    <div class="col-six md-six mob-full categories">
+                        <h3>Kategoriler</h3>
+        
+                        <ul class="linklist">
+                            <li><a href="#0">Teknoloji</a></li>
+                            <li><a href="#0">Girişim</a></li>
+                            <li><a href="#0">Sosyal Yardım</a></li>
+                            
+                           
+                        </ul>
+                    </div> <!-- end categories -->
+        
+                    <div class="col-six md-six mob-full sitelinks">
+                        <h3>Site Bağlantıları</h3>
+        
+                        <ul class="linklist">
+                            <li><a href="/">Ana Sayfa</a></li>
+                            <li><a href="/auths/profile/">Projeler</a></li>
+                            <li><a href="#0">Fikirler</a></li>
+                            <li><a href="#0">Bağış Sayfası</a></li>
+                            <li><a href="#0">Mağaza</a></li>
+                            <li><a href="#0">İletişim</a></li>
+                            <li><a href="#0">Okullar/Takımlar</a></li>
+                        </ul>
+                    </div> <!-- end sitelinks -->
+                </div>
+            </div>
+        </div> <!-- end row -->
+    
+    
+    </section> <!-- end s-extra -->
+
+</center>    
+
+    <!-- s-footer
+   
+    ================================================== -->
+<div id="bodyalt">   
+    <footer class="s-footer">
+
+        <div class="s-footer__main">
+            <div class="row">
+                
+                
+
+                 <div class="col-six tab-full s-footer__subscribe">
+                        
+                    <h4>Yeni Proje Ve Fikirlerden Haberdar Olun</h4>
+
+                    <p>E-Mail Üzerinden Yeni Proje Ve Fikirlerden Haberdar Olmak İsterseniz Aşağıdaki Formu Doldurabilirsiniz</p>
+                    <small>*İstediğiniz zaman aboneliğinizi iptal edebilirsiniz.</small>
+
+                    <div class="subscribe-form">
+                        <form id="mc-form" class="group" novalidate="true">
+
+                            <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Addresi" required="">
+                
+                            <input type="submit" name="subscribe" value="Abone Ol">
+                
+                            <label for="mc-email" class="subscribe-message"></label>
+                
+                        </form>
+                    </div>
+
+                </div> <!-- end s-footer__subscribe -->
+
+            </div>
+        </div> <!-- end s-footer__main -->
+</body>
+        <div  class="s-footer__bottom">
+        
+            <div class="row">
+
+                <div class="col-six">
+                    <ul class="footer-social">
+                       
+                        <li>
+                            <a href="#0"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#0"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="#0"><i class="fab fa-youtube"></i></a>
+                        </li>
+                        
+                    </ul>
+                </div>
+
+                <div class="col-six">
+                    <div class="s-footer__copyright">
+                        <span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> MindUni Bir KRC Projesidir <i class="fa fa-heart" aria-hidden="true"></i>  <a href="https://colorlib.com" target="_blank"></a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+</span>
+                    </div>
+                </div>
+
+            </div>
+        </div> <!-- end s-footer__bottom -->
+
+        <div class="go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top"></a>
+        </div>
+
+    </footer> <!-- end s-footer -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="/static/pi/js/jquery-3.2.1.min.js"></script>
+    <script src="/static/pi/js/plugins.js"></script>
+    <script src="/static/pi/js/main.js"></script>
+
+
+
+        
+                 
+                   
+                 
+                  
+        
+    
+             
+         
+         <br>
+         <br>
+
+       
+        
+    
+        </center>
+</div>        
+    {% endblock body %}        

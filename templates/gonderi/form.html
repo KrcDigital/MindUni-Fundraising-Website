@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block body  %}
+{% load static %}
+  		<link href="{% static 'css/createproject.css' %}" rel="stylesheet" type="text/css">
+  		<link href="{% static 'css/navbar2.css' %}" rel="stylesheet" type="text/css">
+
+<br>
+<br>
+<br>
+<br>
+<div id="yan1">
+<img  src="/static/image/yan.png"  alt="form">
+</div>
+<br>
+<div id="formr">
+
+<div class="container">
+<div class="row"></div>
+<form method="post" enctype="multipart/form-data">
+{% csrf_token %}
+
+       
+    {{form|crispy}}
+    {{form.media}}
+    <input class="btn btn-primary" type="submit" value="Paylaş">
+
+
+</form>
+</div>
+</div>
+
+
+
+
+
+
+
+{% endblock  %}

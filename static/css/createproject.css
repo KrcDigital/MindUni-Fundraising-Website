@@ -1,0 +1,178 @@
+@media (min-width: 1699px) and (max-width: 2100px) {
+
+#nasil
+{ 
+     left: 1550px; 
+     top: -100px; 
+     position: relative; 
+     
+     z-index:4;
+}
+
+#form
+{ 
+     left: 305px; 
+     top: 340px; 
+     position: absolute; 
+     
+     
+}
+
+#formr
+{ 
+     left: 350px; 
+     top: 400px; 
+     position: absolute; 
+     
+     z-index:5;
+}
+
+#nb
+{ 
+     left: 0px; 
+     top: 450px; 
+     position: absolute; 
+     
+     z-index:5;
+}
+#yan1
+     { 
+        visibility: hidden;  
+
+     }
+}
+
+
+
+@media (min-width: 1451px) and (max-width: 1699px) {
+
+     #nasil
+     { 
+          left: 850px; 
+          top: 800px; 
+          position: relative; 
+          
+          z-index:4;
+     }
+     
+     #form
+     { 
+          left: 305px; 
+          top: 340px; 
+          position: absolute; 
+          
+          
+     }
+     
+     #formr
+     { 
+          left: 150px; 
+          top: 200px; 
+          position: absolute; 
+          
+          z-index:5;
+     }
+     
+     #nb
+     { 
+          left: 300px; 
+          top: 1250px; 
+          position: absolute; 
+          
+          z-index:5;
+     }
+     #yan1
+          { 
+             visibility: hidden;  
+     
+          }
+     }
+
+
+
+
+@media (min-width: 300px) and (max-width: 550px) {
+
+     #nasil
+     { 
+          visibility: hidden;
+     }
+     
+     #form
+     { 
+          visibility: hidden;
+
+          
+     }
+     
+     #formr
+     { 
+          visibility: hidden;
+
+     }
+     
+     #nb
+     { 
+          visibility: hidden;
+
+     }
+     #yan
+     { 
+          z-index: 98;
+          top: 300px;
+          position: absolute;
+     }
+
+
+
+
+}     
+
+
+@media (min-width: 699px) and (max-width: 1150px) {
+
+     #nasil
+{ 
+     left: 350px; 
+     top: 1300px; 
+     position: absolute;
+     height: 320px; 
+     
+     z-index:5;
+}
+
+#form
+{ 
+     left: 0px; 
+     top: 50px; 
+     position: absolute; 
+     
+     
+}
+
+#formr
+{ 
+     left: -15px; 
+     top: 200px; 
+     position: absolute; 
+     width: 300px;
+     z-index:5;
+}
+
+#nb
+{ 
+     left: 20px; 
+     top: 1280px; 
+     position: absolute; 
+     
+     z-index:5;
+}
+     #yan1
+     { 
+          visibility: hidden;
+     }
+
+
+
+
+}     

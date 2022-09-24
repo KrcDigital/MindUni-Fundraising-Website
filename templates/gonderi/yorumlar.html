@@ -1,0 +1,9 @@
+{% block yorum %}
+                        <form class="review-form" action="/gonderi/addcomment/{{gonderi.id}}" method="post">
+                            {% csrf_token %}
+                            <div class="form-group">
+                            <textarea class="input" name="comment" id="id_comment" placeholder="Your rewiew"></textarea>
+                            </div>
+                                <button class="primary-btn">yolla</button>
+                        </form>
+{% endblock yorum %}

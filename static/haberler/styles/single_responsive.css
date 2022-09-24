@@ -1,0 +1,359 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******************************
+
+[Table of Contents]
+
+1. 1600px
+2. 1440px
+3. 1280px
+4. 1199px
+5. 1024px
+6. 991px
+7. 959px
+8. 880px
+9. 768px
+10. 767px
+11. 539px
+12. 479px
+13. 400px
+
+******************************/
+
+/************
+1. 1600px
+************/
+
+@media only screen and (max-width: 1600px)
+{
+	
+}
+
+/************
+2. 1440px
+************/
+
+@media only screen and (max-width: 1440px)
+{
+	
+}
+
+/************
+3. 1380px
+************/
+
+@media only screen and (max-width: 1380px)
+{
+	
+}
+
+/************
+3. 1280px
+************/
+
+@media only screen and (max-width: 1280px)
+{
+	
+}
+
+/************
+4. 1199px
+************/
+
+@media only screen and (max-width: 1199px)
+{
+	.header_extra
+	{
+		width: 417px;
+		height: 101px;
+	}
+	.header_extra_title
+	{
+		font-size: 36px;
+	}
+	.post_button
+	{
+		position: relative;
+		margin-top: 37px;
+	}
+}
+
+/************
+4. 1100px
+************/
+
+@media only screen and (max-width: 1100px)
+{
+	
+}
+
+/************
+5. 1024px
+************/
+
+@media only screen and (max-width: 1024px)
+{
+	
+}
+
+/************
+6. 991px
+************/
+
+@media only screen and (max-width: 991px)
+{
+	.header_bar
+	{
+		display: none;
+	}
+	.header_extra
+	{
+		width: 347px;
+		height: 81px;
+	}
+	.main_nav_list li:not(:last-child)
+	{
+		margin-right: 30px;
+	}
+	.post_v_small:first-child
+	{
+		margin-top: 41px;
+	}
+	.post_h_large .post_content
+	{
+		width: 100%;
+		padding-top: 38px;
+	}
+	.post_v_small .post_title a
+	{
+		font-size: 30px;
+	}
+	.sidebar
+	{
+		margin-top: 95px;
+	}
+}
+
+/************
+7. 959px
+************/
+
+@media only screen and (max-width: 959px)
+{
+	
+}
+
+/************
+8. 880px
+************/
+
+@media only screen and (max-width: 880px)
+{
+	
+}
+
+/************
+9. 768px
+************/
+
+@media only screen and (max-width: 768px)
+{
+	
+}
+
+/************
+10. 767px
+************/
+
+@media only screen and (max-width: 767px)
+{
+	.header_extra
+	{
+		display: none !important;
+	}
+	.main_nav,
+	.header_search_container,
+	.header_content_container
+	{
+		display: none;
+	}
+	.header_nav_container,
+	.scrollmagic-pin-spacer
+	{
+		margin-top: 0 !important;
+	}
+	.header_nav_content .logo_container
+	{
+		display: block;
+	}
+	.hamburger
+	{
+		display: block;
+	}
+	.home_slider_nav
+	{
+		display: none !important;
+	}
+	.home_slider_content
+	{
+		max-width: 100%;
+		width: 100%;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.home_title
+	{
+		font-size: 52px;
+	}
+	.intro_col:not(:last-child)
+	{
+		margin-bottom: 60px;
+	}
+	.footer_nav_list li:not(:last-child)
+	{
+		margin-right: 0px;
+		margin-bottom: 12px;
+	}
+}
+
+/************
+11. 575px
+************/
+
+@media only screen and (max-width: 575px)
+{
+	p
+	{
+		font-size: 13px;
+	}
+	.menu
+	{
+		right: -100vw;
+		width: 100vw;
+		padding-right: 30px;
+	}
+	.menu_close_container
+	{
+		right: 30px;
+	}
+	.menu_extra
+	{
+		right: 30px;
+	}
+	.home_title
+	{
+		font-size: 24px;
+	}
+	.section_title
+	{
+		font-size: 28px;
+	}
+	.section_subtitle
+	{
+		font-size: 14px;
+	}
+	.section_bar
+	{
+		margin-top: 0;
+	}
+	.featured_posts
+	{
+		margin-top: 75px;
+	}
+	.home_text
+	{
+		font-size: 13px;
+	}
+	.post_title a
+	{
+		font-size: 24px !important;
+	}
+	.load_more_button,
+	.post_button
+	{
+		width: 184px;
+		height: 45px;
+	}
+	.load_more_button a,
+	.post_button a
+	{
+		line-height: 45px;
+		font-size: 10px;
+	}
+	.comment_content
+	{
+		padding-right: 0;
+	}
+	.post_share
+	{
+		padding-left: 15px;
+	}
+	.post_share_title
+	{
+		font-size: 14px;
+	}
+	.post_share_list
+	{
+		margin-left: 19px;
+	}
+	.post_share_list li
+	{
+		width: 48px;
+		height: 48px;
+	}
+	.post_share_list li:not(:last-child)
+	{
+		margin-right: 0;
+	}
+	.post_share_list li a i
+	{
+		font-size: 12px;
+		line-height: 48px;
+	}
+	.footer_social_list li
+	{
+		width: 48px;
+		height: 48px;
+	}
+	.footer_social_list li a i
+	{
+		line-height: 48px;
+	}
+}
+
+/************
+11. 539px
+************/
+
+@media only screen and (max-width: 539px)
+{
+	
+}
+
+/************
+12. 480px
+************/
+
+@media only screen and (max-width: 480px)
+{
+	
+}
+
+/************
+13. 479px
+************/
+
+@media only screen and (max-width: 479px)
+{
+	
+}
+
+/************
+14. 400px
+************/
+
+@media only screen and (max-width: 400px)
+{
+	
+}

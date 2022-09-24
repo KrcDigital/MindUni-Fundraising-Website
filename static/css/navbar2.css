@@ -1,0 +1,2053 @@
+
+@media (min-width: 1700px) and (max-width: 2100px) {
+
+ body {
+	margin: 0;
+	padding: 0;
+ }
+ 
+
+ #bodynav3 {
+	background-image: url("https://media.giphy.com/media/26n6G8lRMOrYC6rFS/giphy.gif");
+	background-color: #cccccc;
+	min-height: auto;
+  min-width: auto;
+  
+  width: auto;
+  height: 250px;	
+  
+   }
+
+
+   #bakiyeniz
+   {
+	
+
+	  width: 150px;
+	  height: 50px;
+	  position: absolute;
+   
+	  left: 835px;
+	  top: 150px;
+   }
+ 
+   #bakiye
+   {
+	  
+	  position: absolute;
+      color: rgb(255, 255, 255);
+	  left: 935px;
+	  top: 160px;
+   }
+
+ #background1 
+{ 
+	 left: auto; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 1365px;
+	 height: 150px; 
+	 overflow: hidden;
+	 z-index:0;
+	} 
+
+ #nav 
+{ 
+	 left: 0px; 
+	 top: 10px; 
+	 position: absolute; 
+	 width: 1366px;
+	 height: 271px;
+	 z-index:0;
+} 
+
+
+#pb
+{ 
+	 left: 350px; 
+	 top: 50px; 
+	 position: absolute; 
+	 
+	 
+} 
+
+
+#fb
+{ 
+	 left: 500px; 
+	 top: 50px; 
+	 position: absolute; 
+	 
+	 
+} 
+
+
+#sb
+{ 
+	 left: 1150px; 
+	 top: 50px; 
+	 position: absolute; 
+	 
+	 
+}
+
+
+#eb
+{ 
+	 left: 750px; 
+	 top: 50px; 
+	 position: absolute; 
+	 
+	 
+}
+
+
+
+
+#pb2
+{ 
+	 left: 350px; 
+	 top: 50px; 
+	 position: absolute; 
+	 
+	 
+} 
+
+
+#fb2
+{ 
+	 left: 500px; 
+	 top: 50px; 
+	 position: absolute; 
+	 
+	 
+} 
+
+
+#sb2
+{ 
+	 left: 1250px; 
+	 top: 50px; 
+	 position: absolute; 
+	 
+	 
+}
+
+#hb2
+{ 
+	 left: 1080px; 
+	 top: 50px; 
+	 position: absolute; 
+	 
+	 
+}
+
+#eb2
+{ 
+	 left: 650px; 
+	 top: 50px; 
+	 position: absolute; 
+	 
+	 
+}
+
+
+
+
+
+
+
+
+
+
+
+#lb
+{ 
+	 left: 1250px; 
+	 top: 50px; 
+	 position: absolute; 
+	 
+	 
+}
+
+#kb
+{ 
+	 left: 1420px; 
+	 top: 50px; 
+	 position: absolute; 
+	 
+	 
+}
+
+
+#eb
+{ 
+	 left: 660px; 
+	 top: 50px; 
+	 position: absolute; 
+	 
+	 
+}
+
+#pd
+{ 
+	 left: 1400px; 
+	 top: 50px; 
+	 position: absolute; 
+	 
+	 
+}
+
+#scb
+{ 
+	 left: 1005px; 
+	 top: 160px; 
+	 position: absolute; 
+	 width: 30px;
+	 height: 10px;
+	 
+}
+
+
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+  }
+  
+
+  #ddp {
+	top: -50px;
+	left: 150px;
+	border: none;
+	width: 0px;
+	height: 0px;
+	color: white;
+	padding: 0px 0px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+  }
+
+
+#projeler {
+	top: -50px;
+	left: 150px;
+	border: none;
+	width: 0px;
+	height: 0px;
+	color: white;
+	padding: 0px 0px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+  }
+
+}
+
+
+@media (min-width: 1451px) and (max-width: 1699px) {
+
+	body {
+	   margin: 0;
+	   padding: 0;
+	}
+	
+   #yan1{
+	   visibility: hidden;
+   }
+	#bodynav3 {
+	   background-image: url("https://media.giphy.com/media/26n6G8lRMOrYC6rFS/giphy.gif");
+	   background-color: #cccccc;
+	   min-height: auto;
+	 min-width: auto;
+	 
+	 width: auto;
+	 height: 200px;	
+	 
+	  }
+   
+   
+	  #bakiyeniz
+	  {
+	   
+   
+		 width: 150px;
+		 height: 50px;
+		 position: absolute;
+	  
+		 left: 640px;
+		 top: 150px;
+	  }
+	
+	  #bakiye
+	  {
+		 
+		 position: absolute;
+		 color: rgb(255, 255, 255);
+		 left: 740px;
+		 top: 160px;
+	  }
+   
+
+
+
+	#background1 
+   { 
+		left: auto; 
+		top: 0px; 
+		position: relative; 
+		margin-left: auto; 
+		margin-right: auto; 
+		width: 1365px;
+		height: 150px; 
+		overflow: hidden;
+		z-index:0;
+	   } 
+   
+	#nav 
+   { 
+		left: 00px; 
+		top: 10px; 
+		position: absolute; 
+		width: 1366px;
+		height: 271px;
+		z-index:0;
+   } 
+   
+   
+   #pb
+   { 
+		left: 150px; 
+		top: 50px; 
+		position: absolute; 
+		
+		
+   } 
+   
+   
+   #fb
+   { 
+		left: 320px; 
+		top: 50px; 
+		position: absolute; 
+		
+		
+   } 
+   
+   
+   #sb
+   { 
+		left: 950px; 
+		top: 50px; 
+		position: absolute; 
+		
+		
+   }
+   
+   
+   #eb
+   { 
+		left: 500px; 
+		top: 50px; 
+		position: absolute; 
+		
+		
+   }
+   
+
+   #hb2
+   { 
+		left: 900px; 
+		top: 50px; 
+		position: absolute; 
+		
+		
+   }
+
+   #pb2
+   { 
+		left: 150px; 
+		top: 50px; 
+		position: absolute; 
+		
+		
+   } 
+   
+   #sb2
+{ 
+	 left: 1250px; 
+	 top: 50px; 
+	 position: absolute; 
+	 
+	 
+}
+
+
+   #fb2
+   { 
+		left: 320px; 
+		top: 50px; 
+		position: absolute; 
+		
+		
+   } 
+   
+   
+   #sb2
+   { 
+		left: 1050px; 
+		top: 50px; 
+		position: absolute; 
+		
+		
+   }
+   
+   
+   #eb2
+   { 
+		left: 470px; 
+		top: 50px; 
+		position: absolute; 
+		
+		
+   }
+
+
+   #lb
+   { 
+		left: 1060px; 
+		top: 50px; 
+		position: absolute; 
+		
+		
+   }
+   
+   #kb
+   { 
+		left: 1220px; 
+		top: 50px; 
+		position: absolute; 
+		
+		
+   }
+   
+   #pd
+   { 
+		left: 1200px; 
+		top: 50px; 
+		position: absolute; 
+		
+		
+   }
+   
+   #scb
+   { 
+		left: 820px; 
+		top: 160px; 
+		position: absolute; 
+		width: 30px;
+		height: 10px;
+		
+   }
+   
+   
+   
+   .dropdown {
+	   position: relative;
+	   display: inline-block;
+	 }
+	 
+   
+	 #ddp {
+	   top: -50px;
+	   left: 150px;
+	   border: none;
+	   width: 0px;
+	   height: 0px;
+	   color: white;
+	   padding: 0px 0px;
+	   text-align: center;
+	   text-decoration: none;
+	   display: inline-block;
+	   font-size: 16px;
+	 }
+   
+   
+   #projeler {
+	   top: -50px;
+	   left: 150px;
+	   border: none;
+	   width: 0px;
+	   height: 0px;
+	   color: white;
+	   padding: 0px 0px;
+	   text-align: center;
+	   text-decoration: none;
+	   display: inline-block;
+	   font-size: 16px;
+	 }
+
+	 #projeler2 {
+		top: -50px;
+		left: 150px;
+		border: none;
+		width: 0px;
+		height: 0px;
+		color: white;
+		padding: 0px 0px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+	  }
+
+   
+   }
+
+
+   @media (min-width: 729px) and (max-width: 860px) {
+
+	
+   
+	#bodynav3 {
+	   background-image: url("https://media.giphy.com/media/26n6G8lRMOrYC6rFS/giphy.gif");
+	   background-color: #cccccc;
+	   min-height: auto;
+	 min-width: auto;
+	 
+	 width: auto;
+	 height: 184px;	
+	 
+	  }
+   
+	  #hb2
+	  { 
+		   left: 640px; 
+		   top: 75px; 
+		   position: absolute; 
+		   
+		   
+	  } 
+
+	   #bakiyeniz
+	   {
+		
+	
+		  width: 150px;
+		  height: 50px;
+		  position: absolute;
+	   
+		  left: 255px;
+		  top: 200px;
+	   }
+	 
+	   #bakiye
+	   {
+		  
+		  position: absolute;
+		  color: rgb(255, 255, 255);
+		  left: 355px;
+		  top: 212px;
+	   }
+
+
+
+	#background1 
+   { 
+		left: -350px; 
+		top: 0px; 
+		position: relative; 
+		margin-left: auto; 
+		margin-right: auto; 
+		width: 1365px;
+		height: 150px; 
+		overflow: hidden;
+		z-index:0;
+	   } 
+   
+	#nav 
+   { 
+		left: 00px; 
+		top: 10px; 
+		position: absolute; 
+		width: 1366px;
+		height: 271px;
+		z-index:0;
+   } 
+   
+   
+   #pb
+   { 
+		left: -150px; 
+		top: 50px; 
+		position: absolute; 
+		
+		
+   } 
+   
+   
+   #fb
+   { 
+		left: -120px; 
+		top: 50px; 
+		position: absolute; 
+		
+		
+   } 
+   
+   
+   #sb
+   { 
+		left: 950px; 
+		top: 50px; 
+		position: absolute; 
+		
+		
+   }
+   
+   
+   #eb
+   { 
+		left: 500px; 
+		top: 50px; 
+		position: absolute; 
+		
+		
+   }
+   
+
+   #pb2
+   { 
+		left: 10px; 
+		top: 75px; 
+		position: absolute; 
+		
+		
+   } 
+   
+   
+   #fb2
+   { 
+		left: 125px; 
+		top: 75px; 
+		position: absolute; 
+		
+		
+   } 
+   
+   
+   #sb2
+   { 
+		left: 600px; 
+		top: 75px; 
+		position: absolute; 
+		
+		
+   }
+   
+   
+   #eb2
+   { 
+		left: 460px; 
+		top: 75px; 
+		position: absolute; 
+		
+		
+   }
+
+
+   #lb
+   { 
+		left: 240px; 
+		top: 150px; 
+		position: absolute; 
+		
+		
+   }
+   
+   #kb
+   { 
+		left: 360px; 
+		top: 150px; 
+		position: absolute; 
+		
+		
+   }
+   
+   #pd
+   { 
+		left: 250px; 
+		top: 150px; 
+		position: absolute; 
+		
+		
+   }
+   
+   #scb
+   { 
+		left: 380px; 
+		top: 153px; 
+		position: absolute; 
+		width: 30px;
+		height: 10px;
+		
+   }
+   
+
+
+
+
+   
+   
+   .dropdown {
+	   position: relative;
+	   display: inline-block;
+	 }
+	 
+   
+	 #ddp {
+	   top: -50px;
+	   left: 150px;
+	   border: none;
+	   width: 0px;
+	   height: 0px;
+	   color: white;
+	   padding: 0px 0px;
+	   text-align: center;
+	   text-decoration: none;
+	   display: inline-block;
+	   font-size: 16px;
+	 }
+   
+   
+   #projeler {
+	   top: -50px;
+	   left: 150px;
+	   border: none;
+	   width: 0px;
+	   height: 0px;
+	   color: white;
+	   padding: 0px 0px;
+	   text-align: center;
+	   text-decoration: none;
+	   display: inline-block;
+	   font-size: 16px;
+	 }
+
+	 #projeler2 {
+		top: -50px;
+		left: 150px;
+		border: none;
+		width: 0px;
+		height: 0px;
+		color: white;
+		padding: 0px 0px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+	  }
+
+   
+   }
+
+
+
+   @media (min-width: 355px) and (max-width: 376px) {
+
+	body {
+	   margin: 0;
+	   padding: 0;
+	}
+	
+   
+	#bodynav3 {
+	   background-image: url("https://media.giphy.com/media/26n6G8lRMOrYC6rFS/giphy.gif");
+	   background-color: #cccccc;
+	  
+	 
+	 width: auto;
+	 height: auto;	
+	 
+	  }
+   
+	  #bakiyeniz
+	  {
+	   
+   
+		 width: 150px;
+		 height: 50px;
+		 position: absolute;
+	  
+		 left: 65px;
+		 top: 208px;
+	  }
+	
+	  #bakiye
+	  {
+		 
+		 position: absolute;
+		 color: rgb(255, 255, 255);
+		 left: 165px;
+		 top: 220px;
+	  }
+
+
+	  #hb2
+	  { 
+		   left: 235px; 
+		   top: 80px; 
+		   position: absolute; 
+		   
+		   
+	  }
+	#background1 
+   { 
+	   
+		left: auto; 
+		top: 0px; 
+		position: relative; 
+		margin-left: auto; 
+		margin-right: auto; 
+		width: 350px;
+		height: 150px; 
+		overflow: hidden;
+		z-index:0;
+	   } 
+   
+	#nav 
+   { 
+		left: -100px; 
+		top: 10px; 
+		position: absolute; 
+		width: 550px;
+		height: 250px; 
+		z-index:0;
+   } 
+   
+   
+   #pb
+   { 
+		left:5; 
+		top: 80px; 
+		position: absolute; 
+		
+		
+   } 
+   
+   
+   #fb
+   {
+		left: 115px; 
+		top: 80px; 
+		position: absolute; 
+		
+		
+   } 
+   
+   
+   #sb
+   { 
+		left: 222px; 
+		top: 80px; 
+		position: absolute; 
+		
+		
+   }
+   
+   
+   #eb
+   { 
+		left: 17px; 
+		top: 145px; 
+		position: absolute; 
+		
+		
+   }
+   
+
+   #pb2
+   { 
+		left:0px; 
+		top: 80px; 
+		position: absolute; 
+		
+		
+   } 
+   
+   
+   #fb2
+   {
+		left: 115px; 
+		top: 80px; 
+		position: absolute; 
+		
+		
+   } 
+   
+   
+   #sb2
+   { 
+		left: 130px; 
+		top: 145px; 
+		position: absolute; 
+		
+		
+   }
+   
+   
+   #eb2
+   { 
+		left: 0px; 
+		top: 145px; 
+		position: absolute; 
+		z-index: 65;
+		
+		
+   }
+
+
+
+
+   #lb
+   { 
+		left: 230px; 
+		top: 145px; 
+		position: absolute; 
+		
+		
+   }
+   
+   #kb
+   { 
+		left: 133px; 
+		top: 145px; 
+		position: absolute; 
+		
+		
+   }
+   
+   #pd
+   { 
+		left: 225px; 
+		top: 145px; 
+		position: absolute; 
+		
+		
+   }
+   
+   #scb
+   { 
+		left: 230px; 
+		top: 220px; 
+		position: absolute; 
+		width: 20px;
+		height: 10px;
+		
+   }
+   
+   
+   
+   .dropdown {
+	   position: relative;
+	   display: inline-block;
+	 }
+	 
+   
+	 #ddep {
+	   top: -50px;
+	   left: 150px;
+	   border: none;
+	   width: 50px;
+	   height: 20px;
+	   color: white;
+	   padding: 0px 0px;
+	   text-align: center;
+	   text-decoration: none;
+	   display: inline-block;
+	   font-size: 16px;
+	 }
+   
+   
+   #projeleer {
+	   top: -50px;
+	   left: 150px;
+	   border: none;
+	   width: 50px;
+	   height: 20px;
+	   color: white;
+	   padding: 0px 0px;
+	   text-align: center;
+	   text-decoration: none;
+	   display: inline-block;
+	   font-size: 16px;
+	 }
+   
+   }
+
+
+   @media (min-width: 300px) and (max-width: 330px) {
+
+	body {
+		margin: 0;
+		padding: 0;
+	 }
+	 
+	
+	 #bodynav3 {
+		background-image: url("https://media.giphy.com/media/26n6G8lRMOrYC6rFS/giphy.gif");
+		background-color: #cccccc;
+	   
+	  z-index: 0;
+	  width: auto;
+	  height: auto;	
+	  
+	   }
+	
+	
+	   #bakiyeniz
+	   {
+		
+	
+		  width: 150px;
+		  height: 50px;
+		  position: absolute;
+	   
+		  left: 55px;
+		  top: 200px;
+	   }
+	 
+	   #bakiye
+	   {
+		  
+		  position: absolute;
+		  color: rgb(255, 255, 255);
+		  left: 155px;
+		  top: 212px;
+	   }
+
+
+	 #background1 
+	{ 
+		
+		 left: auto; 
+		 top: 0px; 
+		 position: relative; 
+		 margin-left: auto; 
+		 margin-right: auto; 
+		 width: 350px;
+		 height: 150px; 
+		 overflow: hidden;
+		 z-index:0;
+		} 
+	
+	 #nav 
+	{ 
+		 left: -120px; 
+		 top: 10px; 
+		 position: absolute; 
+		 width: 550px;
+		 height: 250px; 
+		 z-index:0;
+	} 
+	
+	
+	#pb
+	{ 
+		 left: 5px; 
+		 top: 80px; 
+		 position: absolute; 
+		 width: 0px;
+		 height: 20px;
+		 
+		 
+	} 
+	
+	
+	#fb
+	{ 
+		 left: 110px; 
+		 top: 80px; 
+		 position: absolute; 
+		 
+		 
+	} 
+	
+	
+	#hb2
+	{ 
+		 left: 220px; 
+		 top: 80px; 
+		 position: absolute; 
+		 
+		 
+	} 
+
+
+	#sb
+	{ 
+		 left: 215px; 
+		 top: 80px; 
+		 position: absolute; 
+		 
+		 
+	}
+	
+	
+	#eb
+	{ 
+		width: 100px;
+		 left: 30px; 
+		 top: 140px; 
+		 position: absolute; 
+		 
+		 
+	}
+
+	#pb2
+	{ 
+		 left: 5px; 
+		 top: 80px; 
+		 position: absolute; 
+		 width: 0px;
+		 height: 20px;
+		 
+		 
+	} 
+	
+	
+	#fb2
+	{ 
+		 left: 110px; 
+		 top: 80px; 
+		 position: absolute; 
+		 
+		 
+	} 
+	
+	
+	#sb2
+	{ 
+		 left: 120px; 
+		 top: 135px; 
+		 position: absolute; 
+		 
+		 
+	}
+	
+	
+	#eb2
+	{ 
+		width: 120px;
+		 left: 5px; 
+		 top: 135px; 
+		 position: absolute; 
+		 
+		 
+	}
+
+	
+	#lb
+	{ 
+		 left: 220px; 
+		 top: 135px; 
+		 position: absolute; 
+		 
+		 
+	}
+	
+	#kb
+	{ 
+		 left: 120px; 
+		 top: 135px; 
+		 position: absolute; 
+		 
+		 
+	}
+	
+	#pd
+	{ 
+		 left: 215px; 
+		 top: 135px; 
+		 position: absolute; 
+		 
+		 
+	}
+	
+	#scb
+	{ 
+		 left: 215px; 
+		 top: 210px; 
+		 position: absolute; 
+		 width: 30px;
+		 height: 10px;
+		 
+	}
+	
+	
+	
+	.dropdown {
+		position: relative;
+		display: inline-block;
+	  }
+	  
+	
+	  #ddp {
+		top: -50px;
+		left: 150px;
+		border: none;
+		width: 100px;
+		height: 50px;
+		color: white;
+		padding: 0px 0px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 12px;
+	  }
+	
+	
+	#projeler{
+		top: -50px;
+		left: 150px;
+		border: none;
+		width: 100px;
+		height: 50px;
+		color: white;
+		padding: 0px 0px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 12px;
+		
+	  }
+	
+	  #projeler2{
+		top: -50px;
+		left: 150px;
+		border: none;
+		width: 110px;
+		height: 50px;
+		color: white;
+		padding: 0px 0px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 12px;
+		
+	  }
+
+
+	}
+ 
+
+   @media (min-width: 377px) and (max-width: 399px) {
+
+	body {
+		margin: 0;
+		padding: 0;
+	 }
+	 
+	
+	 #bodynav3 {
+		background-image: url("https://media.giphy.com/media/26n6G8lRMOrYC6rFS/giphy.gif");
+		background-color: #cccccc;
+	   
+	  z-index: 0;
+	  width: auto;
+	  height: auto;	
+	  
+	   }
+	
+	
+	 #background1 
+	{ 
+		
+		 left: auto; 
+		 top: 0px; 
+		 position: relative; 
+		 margin-left: auto; 
+		 margin-right: auto; 
+		 width: 350px;
+		 height: 150px; 
+		 overflow: hidden;
+		 z-index:0;
+		} 
+	
+	 #nav 
+	{ 
+		 left: -100px; 
+		 top: 10px; 
+		 position: absolute; 
+		 width: 550px;
+		 height: 250px; 
+		 z-index:0;
+	} 
+	
+	
+	#pb
+	{ 
+		 left: 10px; 
+		 top: 80px; 
+		 position: absolute; 
+		 
+		 
+	} 
+	
+	
+	#fb
+	{ 
+		 left: 145px; 
+		 top: 80px; 
+		 position: absolute; 
+		 
+		 
+	} 
+	
+	
+	#sb
+	{ 
+		 left: 275px; 
+		 top: 80px; 
+		 position: absolute; 
+		 
+		 
+	}
+	
+	
+	#eb
+	{ 
+		 left: 30px; 
+		 top: 150px; 
+		 position: absolute; 
+		 
+		 
+	}
+	
+
+	#pb2
+	{ 
+		 left: 10px; 
+		 top: 80px; 
+		 position: absolute; 
+		 
+		 
+	} 
+	
+	
+	#fb2
+	{ 
+		 left: 145px; 
+		 top: 80px; 
+		 position: absolute; 
+		 
+		 
+	} 
+	
+	
+	#sb2
+	{ 
+		 left: 275px; 
+		 top: 80px; 
+		 position: absolute; 
+		 
+		 
+	}
+	
+	
+	#eb2
+	{ 
+		 left: 30px; 
+		 top: 150px; 
+		 position: absolute; 
+		 
+		 
+	}
+	
+
+
+
+	#lb
+	{ 
+		 left: 120px; 
+		 top: 150px; 
+		 position: absolute; 
+		 
+		 
+	}
+	
+	#kb
+	{ 
+		 left: 250px; 
+		 top: 150px; 
+		 position: absolute; 
+		 
+		 
+	}
+	
+	#pd
+	{ 
+		 left: 220px; 
+		 top: 150px; 
+		 position: absolute; 
+		 
+		 
+	}
+	
+	#scb
+	{ 
+		 left: 205px; 
+		 top: 220px; 
+		 position: absolute; 
+		 width: 30px;
+		 height: 10px;
+		 
+	}
+	
+	
+	
+	.dropdown {
+		position: relative;
+		display: inline-block;
+	  }
+	  
+	
+	  #ddpk {
+		top: -50px;
+		left: 150px;
+		border: none;
+		width: 0px;
+		height: 0px;
+		color: white;
+		padding: 0px 0px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+	  }
+	
+	
+	#projelerj {
+		top: -50px;
+		left: 150px;
+		border: none;
+		width: 0px;
+		height: 0px;
+		color: white;
+		padding: 0px 0px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+	  }
+	
+	}
+ 
+   
+
+
+   @media (min-width: 400px) and (max-width: 420px) {
+
+	body {
+	   margin: 0;
+	   padding: 0;
+	}
+	
+   
+	#bodynav3 {
+	   background-image: url("https://media.giphy.com/media/26n6G8lRMOrYC6rFS/giphy.gif");
+	   background-color: #cccccc;
+	  
+	 z-index: 0;
+	 width: auto;
+	 height: auto;	
+	 
+	  }
+   
+   
+	#background1 
+   { 
+	   
+		left: auto; 
+		top: 0px; 
+		position: relative; 
+		margin-left: auto; 
+		margin-right: auto; 
+		width: 350px;
+		height: 150px; 
+		overflow: hidden;
+		z-index:0;
+	   } 
+   
+
+	   #bakiyeniz
+	   {
+		
+	
+		  width: 150px;
+		  height: 50px;
+		  position: absolute;
+	   
+		  left: 90px;
+		  top: 210px;
+	   }
+	 
+	   #bakiye
+	   {
+		  
+		  position: absolute;
+		  color: rgb(255, 255, 255);
+		  left: 190px;
+		  top: 222px;
+	   }
+
+
+
+
+
+	#nav 
+   { 
+		left: -100px; 
+		top: 10px; 
+		position: absolute; 
+		width: 550px;
+		height: 250px; 
+		z-index:0;
+   } 
+   
+   
+   #pb
+   { 
+		left: 10px; 
+		top: 80px; 
+		position: absolute; 
+		
+		
+   } 
+   
+   .btn,
+   button,
+   input[type="submit"],
+   input[type="reset"],
+   input[type="button"] {
+	background-color: none;
+	color: #ffffff;
+
+   }
+   #fb
+   { 
+		left: 142px; 
+		top: 80px; 
+		position: absolute; 
+		
+		
+   } 
+   
+
+   #hb2
+   { 
+		left: 253px; 
+		top: 80px; 
+		position: absolute; 
+		
+		
+   } 
+
+   
+   #sb
+   { 
+		left: 275px; 
+		top: 80px; 
+		position: absolute; 
+		
+		
+   }
+   
+   
+   #eb
+   { 
+		left: 30px; 
+		top: 150px; 
+		position: absolute; 
+		
+		
+   }
+   
+
+
+   #pb2
+   { 
+		left: 10px; 
+		top: 80px; 
+		position: absolute; 
+		
+		
+   } 
+   
+   
+   #fb2
+   { 
+		left: 145px; 
+		top: 80px; 
+		position: absolute; 
+		
+		
+   } 
+   
+   
+   #sb2
+   { 
+		left: 150px; 
+		top: 150px; 
+		position: absolute; 
+		
+		
+   }
+   
+   
+   #eb2
+   { 
+		left: 5px; 
+		top: 150px; 
+		position: absolute; 
+		
+		
+   }
+
+
+
+   #lb
+   { 
+		left: 140px; 
+		top: 150px; 
+		position: absolute; 
+		
+		
+   }
+   
+   #kb
+   { 
+		left: 260px; 
+		top: 150px; 
+		position: absolute; 
+		
+		
+   }
+   
+   #pd
+   { 
+		left: 260px; 
+		top: 150px; 
+		position: absolute; 
+		
+		
+   }
+   
+   #scb
+   { 
+		left: 255px; 
+		top: 215px; 
+		position: absolute; 
+		width: 30px;
+		height: 10px;
+		
+   }
+   
+   
+   
+   .dropdown {
+	   position: relative;
+	   display: inline-block;
+	 }
+	 
+   
+	 #ddpk {
+	   top: -50px;
+	   left: 150px;
+	   border: none;
+	   width: 0px;
+	   height: 0px;
+	   color: white;
+	   padding: 0px 0px;
+	   text-align: center;
+	   text-decoration: none;
+	   display: inline-block;
+	   font-size: 16px;
+	 }
+   
+   
+   #projelerj {
+	   top: -50px;
+	   left: 150px;
+	   border: none;
+	   width: 0px;
+	   height: 0px;
+	   color: white;
+	   padding: 0px 0px;
+	   text-align: center;
+	   text-decoration: none;
+	   display: inline-block;
+	   font-size: 16px;
+	 }
+   
+   }
+
+
+
+@media (min-width: 1201px) and (max-width: 1450px) {
+
+body {
+	   margin: 0;
+	   padding: 0;
+}
+	
+   
+#bodynav3 {
+	   background-image: url("https://media.giphy.com/media/26n6G8lRMOrYC6rFS/giphy.gif");
+	   background-color: #cccccc;
+	   min-height: auto;
+	 min-width: auto;
+	 
+	 width: auto;
+	 height: auto;	
+	 
+}
+   
+   
+#background1 
+   { 
+		left: auto; 
+		top: 0px; 
+		position: relative; 
+		margin-left: auto; 
+		margin-right: auto; 
+		width: 1365px;
+		height: 150px; 
+		overflow: hidden;
+		z-index:0;
+} 
+   
+#nav 
+   { 
+		left: 0px; 
+		top: 10px; 
+		position: absolute; 
+		width: 1366px;
+		height: 271px;
+		z-index:0;
+} 
+   
+   
+#pb
+   { 
+		left: 175px; 
+		top: 50px; 
+		position: absolute; 
+		
+		
+} 
+   
+   
+#fb
+   { 
+		left: 400px; 
+		top: 50px; 
+		position: absolute; 
+		
+		
+} 
+   
+   
+#sb
+   { 
+		left: 1100px; 
+		top: 50px; 
+		position: absolute; 
+		
+		
+}
+   
+   
+#eb
+   { 
+		left: 600px; 
+		top: 50px; 
+		position: absolute; 
+		
+		
+}
+   
+#lb
+   { 
+		left: 1350px; 
+		top: 50px; 
+		position: absolute; 
+		
+		
+}
+   
+#kb
+   { 
+		left: 1550px; 
+		top: 50px; 
+		position: absolute; 
+		
+		
+}
+   
+#pd
+   { 
+		left: 1300px; 
+		top: 50px; 
+		position: absolute; 
+		
+		
+}
+   
+#scb
+   { 
+		left: 1500px; 
+		top: 45px; 
+		position: absolute; 
+		width: 30px;
+		height: 10px;
+		
+}
+   
+   
+   
+   
+.dropdown {
+	   position: relative;
+	   display: inline-block;
+}
+	 
+   
+#ddp {
+	   top: -50px;
+	   left: 150px;
+	   border: none;
+	   width: 0px;
+	   height: 0px;
+	   color: white;
+	   padding: 0px 0px;
+	   text-align: center;
+	   text-decoration: none;
+	   display: inline-block;
+	   font-size: 16px;
+}
+   
+   
+#projeler {
+	   top: -50px;
+	   left: 150px;
+	   border: none;
+	   width: 0px;
+	   height: 0px;
+	   color: white;
+	   padding: 0px 0px;
+	   text-align: center;
+	   text-decoration: none;
+	   display: inline-block;
+	   font-size: 16px;
+}
+
+}
+
+
+
+@media (min-width: 950px) and (max-width: 1199px) {
+
+	body {
+		   margin: 0;
+		   padding: 0;
+	}
+		
+	   
+	#bodynav3 {
+		   background-image: url("https://media.giphy.com/media/26n6G8lRMOrYC6rFS/giphy.gif");
+		   background-color: #cccccc;
+		   min-height: auto;
+		 min-width: auto;
+		 
+		 width: auto;
+		 height: auto;	
+		 
+	}
+	   
+	   
+	#background1 
+	   { 
+			left: auto; 
+			top: 0px; 
+			position: relative; 
+			margin-left: auto; 
+			margin-right: auto; 
+			width: 1365px;
+			height: 150px; 
+			overflow: hidden;
+			z-index:0;
+	} 
+	   
+	#nav 
+	   { 
+			left: 0px; 
+			top: 10px; 
+			position: absolute; 
+			width: 1366px;
+			height: 271px;
+			z-index:0;
+	} 
+	   
+	   
+	#pb
+	   { 
+			left: 175px; 
+			top: 50px; 
+			position: absolute; 
+			
+			
+	} 
+	   
+	   
+	#fb
+	   { 
+			left: 400px; 
+			top: 50px; 
+			position: absolute; 
+			
+			
+	} 
+	   
+	   
+	#sb
+	   { 
+			left: 1100px; 
+			top: 50px; 
+			position: absolute; 
+			
+			
+	}
+	   
+	   
+	#eb
+	   { 
+			left: 600px; 
+			top: 50px; 
+			position: absolute; 
+			
+			
+	}
+	   
+	#lb
+	   { 
+			left: 1350px; 
+			top: 50px; 
+			position: absolute; 
+			
+			
+	}
+	   
+	#kb
+	   { 
+			left: 1550px; 
+			top: 50px; 
+			position: absolute; 
+			
+			
+	}
+	   
+	#pd
+	   { 
+			left: 1300px; 
+			top: 50px; 
+			position: absolute; 
+			
+			
+	}
+	   
+	#scb
+	   { 
+			left: 1500px; 
+			top: 45px; 
+			position: absolute; 
+			width: 30px;
+			height: 10px;
+			
+	}
+	   
+	   
+	   
+	   
+	.dropdown {
+		   position: relative;
+		   display: inline-block;
+	}
+		 
+	   
+	#ddp {
+		   top: -50px;
+		   left: 150px;
+		   border: none;
+		   width: 0px;
+		   height: 0px;
+		   color: white;
+		   padding: 0px 0px;
+		   text-align: center;
+		   text-decoration: none;
+		   display: inline-block;
+		   font-size: 16px;
+	}
+	   
+	   
+	#projeler {
+		   top: -50px;
+		   left: 150px;
+		   border: none;
+		   width: 0px;
+		   height: 0px;
+		   color: white;
+		   padding: 0px 0px;
+		   text-align: center;
+		   text-decoration: none;
+		   display: inline-block;
+		   font-size: 16px;
+	}
+	
+	}
+	
+
+
+  @media (min-width: 699px) and (max-width: 949px) {
+
+	body {
+		   margin: 0;
+		   padding: 0;
+	}
+		
+	   
+	
+	 
+	   
+
+	   
+	#nav 
+	   { 
+			left: 0px; 
+			top: 10px; 
+			position: absolute; 
+			width: 1366px;
+			height: 271px;
+			z-index:0;
+	} 
+	   
+	   
+	
+}
+	
+	
